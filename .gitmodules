@@ -1,7 +1,3 @@
 [submodule "themes/codex"]
 	path = themes/codex
 	url = https://github.com/jakewies/hugo-theme-codex.git
-[submodule "public"]
-	path = public
-	url = git@github.com:juusokorhonen/juusokorhonen.github.io.git
-	branch = master

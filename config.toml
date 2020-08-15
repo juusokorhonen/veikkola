@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "http://veikkola.greidi.net/"
 languageCode = "fi-FI"
 title = "Veikkolan kiipeilypuisto"
