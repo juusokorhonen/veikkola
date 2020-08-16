@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nousematon on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/tags/nousematon/</link>
+    <description>Recent content in nousematon on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 09:40:36 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/tags/nousematon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Seiskan Halkeama</title>
+      <link>http://veikkola.greidi.net/route/seiskan-halkeama/</link>
+      <pubDate>Sun, 16 Aug 2020 09:40:36 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/route/seiskan-halkeama/</guid>
+      <description>Kuvaus </description>
+    </item>
+    
+    <item>
+      <title>Kasin Halkeama</title>
+      <link>http://veikkola.greidi.net/route/kasin-halkeama/</link>
+      <pubDate>Sun, 16 Aug 2020 09:40:30 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/route/kasin-halkeama/</guid>
+      <description>Kuvaus </description>
+    </item>
+    
+    <item>
+      <title>Pleurokokki</title>
+      <link>http://veikkola.greidi.net/route/pleurokokki/</link>
+      <pubDate>Sun, 16 Aug 2020 09:39:18 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/route/pleurokokki/</guid>
+      <description>Kuvaus Vihreän leväkasvuston (pleurococcus) värittämä halkeama vasemmalle viistoon. Sitten pyöreän pulterin kohdalta oikealle ylös.</description>
+    </item>
+    
+    <item>
+      <title>Pulteriprobleema</title>
+      <link>http://veikkola.greidi.net/route/pulteriprobleema/</link>
+      <pubDate>Sun, 16 Aug 2020 09:39:09 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/route/pulteriprobleema/</guid>
+      <description>Kuvaus (nousematon)
+Lähtö luolamaisen syvennyksen oikeasta reunasta, jonka päältä suoraan ylös.</description>
+    </item>
+    
+    <item>
+      <title>Tiukka Layback</title>
+      <link>http://veikkola.greidi.net/route/tiukka-layback/</link>
+      <pubDate>Sun, 16 Aug 2020 09:38:20 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/route/tiukka-layback/</guid>
+      <description>Kuvaus (nousematon)</description>
+    </item>
+    
+  </channel>
+</rss>
