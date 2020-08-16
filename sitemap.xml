@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://veikkola.greidi.net/</loc>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/sectors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/setters/</loc>
   </url>
   
   <url>
@@ -11,7 +23,11 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/</loc>
+    <loc>http://veikkola.greidi.net/topos/</loc>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/types/</loc>
   </url>
   
 </urlset>
