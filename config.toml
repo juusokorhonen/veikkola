@@ -64,19 +64,25 @@ copyright = "© {year} Juuso Korhonen"
   identifier = "blog"
   name = "blogi"
   title = "Blogi"
-  url = "/blog"
+  url = "/blog/"
+
+[[menu.main]]
+  identifier = "topos"
+  name = "topot"
+  title = "Topot"
+  url = "/topo/"
 
 [[menu.main]]
   identifier = "sectors"
   name = "sektorit"
   title = "Sektorit"
-  url = "/sector"
+  url = "/sector/"
 
 [[menu.main]]
   identifier = "routes"
   name = "reitit"
   title = "Reitit"
-  url = "/route"
+  url = "/route/"
 
 # Custom taxonomies
 [taxonomies]
