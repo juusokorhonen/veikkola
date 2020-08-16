@@ -10,8 +10,9 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 18
 grade: "5-"
 type: "trad"
+setter: "Jan von Plato"
+fa: "Jan von Plato"
 ---
-
-# Kuvaus

@@ -10,11 +10,13 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 9
 grade: "5+"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: "Jan von Plato"
 ---
 
-# Kuvaus
 
 Yläosassa kiivetään layback oikealle. Vältä vasemmanpuoleisen reitin otteita ylhäällä. Jätä yläreunan mäntyyn lyöty lukko rauhaan!
 

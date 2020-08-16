@@ -10,9 +10,12 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 17
 grade: "5+"
 type: "trad"
+setter: "Toby Archer"
+fa: "Toby Archer"
 ---
 
-# Kuvaus
+
 

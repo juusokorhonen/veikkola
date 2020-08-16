@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 5
 grade: "5-"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Keskiosan hienan laybackin jälkeen roskaisen terassin takaa oikealle.

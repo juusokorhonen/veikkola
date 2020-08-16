@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 16
 grade: "5-"
 type: "trad"
+setter: "Jan von Plato"
+fa: ""
 ---
-
-# Kuvaus
 
 "Kolmiloikan" oikealta poikkikulku helpoimmasta kohdasta oikealle. Sen jälkeen vasemmalle ylös ulkonemien alta.

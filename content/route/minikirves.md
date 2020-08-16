@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 1
 grade: "5-"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Matala, mutta hankala kolo kalliossa. Yläosa helposti kuusen ohi.

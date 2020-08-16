@@ -92,4 +92,5 @@ copyright = "© {year} Juuso Korhonen"
   sector = "sectors"
   type = "types"
   setter = "setters"
+  fa = "fas"
   

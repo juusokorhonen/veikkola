@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 3
 grade: "5"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Epämääräinen punnerrus, sitten helpompaa. Lopussa oikealla viettävä karhea sormihalkeama.

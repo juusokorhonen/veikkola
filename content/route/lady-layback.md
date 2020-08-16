@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 11
 grade: "4+"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: "Maria Hämeen-Anttila"
 ---
-
-# Kuvaus
 
 Hieno blokin ohitus yläosassa. Lähtö "Hans Dülfer" -reitin vasemmalla puolella olevasta hakeamasta.

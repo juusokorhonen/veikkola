@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 14
 grade: "?"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Vihreän leväkasvuston (_pleurococcus_) värittämä halkeama vasemmalle viistoon. Sitten pyöreän pulterin kohdalta oikealle ylös.

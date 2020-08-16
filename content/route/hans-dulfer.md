@@ -10,11 +10,12 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 12
 grade: "5+"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: "Jan von Plato"
 ---
-
-# Kuvaus
 
 Layback-osuuden alku hankala varmistaa. Ensimmäinen varmistuskiila pysyvästi reitin alussa.
 

@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 10
 grade: "4+"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Alussa hankalahko varmistaa. Reitin puolivälistä löytyi jerrykannu.

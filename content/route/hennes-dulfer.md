@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 8
 grade: "6-"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: "Maria Hämeen-Anttila"
 ---
-
-# Kuvaus
 
 Vältä seuraavan reitin halkeamaa.

@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "main-wall"
+sector_weight: 19
 grade: "5-"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
 
-# Kuvaus
-
-ALussa suuren irtonaisen lohkareen vasemmalta, sitten sen oikealta ylös missä parin otteen jälkeen saa pienen frendin vaakahalkeamaan ainoaksi varmistukseksi.
+Alussa suuren irtonaisen lohkareen vasemmalta, sitten sen oikealta ylös missä parin otteen jälkeen saa pienen frendin vaakahalkeamaan ainoaksi varmistukseksi.

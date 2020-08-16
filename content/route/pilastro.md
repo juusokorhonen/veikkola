@@ -10,10 +10,11 @@ math: false
 toc: false
 topo: "veikkola-trad"
 sector: "south-wall"
+sector_weight: 1
 grade: "5-"
 type: "trad"
+setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
+fa: ""
 ---
-
-# Kuvaus
 
 Ensimmäinen varmistus on aika korkealla. Pädi mukaan!
