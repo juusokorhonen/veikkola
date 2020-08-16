@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reitit on Veikkolan kiipeilypuisto</title>
-    <link>http://veikkola.greidi.net/route/</link>
-    <description>Recent content in Reitit on Veikkolan kiipeilypuisto</description>
+    <title>Jan von Plato on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/setters/jan-von-plato/</link>
+    <description>Recent content in Jan von Plato on Veikkolan kiipeilypuisto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 09:40:36 +0300</lastBuildDate>
     
-	<atom:link href="http://veikkola.greidi.net/route/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://veikkola.greidi.net/setters/jan-von-plato/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       <pubDate>Sun, 16 Aug 2020 09:40:36 +0300</pubDate>
       
       <guid>http://veikkola.greidi.net/route/seiskan-halkeama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#34;Kasin halkeama&#34;</title>
-      <link>http://veikkola.greidi.net/route/kasin-halkeama/</link>
-      <pubDate>Sun, 16 Aug 2020 09:40:30 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/kasin-halkeama/</guid>
       <description></description>
     </item>
     
@@ -46,15 +37,6 @@
       
       <guid>http://veikkola.greidi.net/route/nuija/</guid>
       <description>Alussa suuren irtonaisen lohkareen vasemmalta, sitten sen oikealta ylös missä parin otteen jälkeen saa pienen frendin vaakahalkeamaan ainoaksi varmistukseksi.</description>
-    </item>
-    
-    <item>
-      <title>Kolmiloikka</title>
-      <link>http://veikkola.greidi.net/route/kolmiloikka/</link>
-      <pubDate>Sun, 16 Aug 2020 09:39:29 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/kolmiloikka/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -184,56 +166,11 @@
     </item>
     
     <item>
-      <title>Blizzard Crack</title>
-      <link>http://veikkola.greidi.net/route/blizzard-crack/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/blizzard-crack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Erikoinen Savutorvi</title>
-      <link>http://veikkola.greidi.net/route/erikoinen-savutorvi/</link>
-      <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/erikoinen-savutorvi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kruisailu</title>
-      <link>http://veikkola.greidi.net/route/kruisailu/</link>
-      <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/kruisailu/</guid>
-      <description>&amp;ldquo;Kolmiloikan&amp;rdquo; oikealta poikkikulku helpoimmasta kohdasta oikealle. Sen jälkeen vasemmalle ylös ulkonemien alta.</description>
-    </item>
-    
-    <item>
-      <title>Nelosen halkeama</title>
-      <link>http://veikkola.greidi.net/route/nelosen-halkeama/</link>
-      <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/nelosen-halkeama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ulkoneva halkeama</title>
       <link>http://veikkola.greidi.net/route/ulkoneva-halkeama/</link>
       <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
       
       <guid>http://veikkola.greidi.net/route/ulkoneva-halkeama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kivikirves</title>
-      <link>http://veikkola.greidi.net/route/kivikirves/</link>
-      <pubDate>Thu, 01 Jan 1976 00:00:00 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/kivikirves/</guid>
       <description></description>
     </item>
     
