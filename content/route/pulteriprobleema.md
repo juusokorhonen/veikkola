@@ -4,7 +4,7 @@ date: 2020-08-16T09:39:09+03:00
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: ["nousematon"]
 math: false
 toc: false
