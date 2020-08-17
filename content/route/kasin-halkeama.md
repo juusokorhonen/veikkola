@@ -8,8 +8,8 @@ draft: false
 tags: ["nousematon"]
 math: false
 toc: false
-topo: "veikkola-trad"
-sector: "south-wall"
+topo: "Veikkola Trad"
+sector: "Eteläseinä"
 sector_weight: 2
 grade: "?"
 type: "trad"

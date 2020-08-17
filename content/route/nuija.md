@@ -8,8 +8,8 @@ draft: false
 tags: []
 math: false
 toc: false
-topo: "veikkola-trad"
-sector: "main-wall"
+topo: "Veikkola Trad"
+sector: "Pääseinä"
 sector_weight: 19
 grade: "5-"
 type: "trad"
