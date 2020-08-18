@@ -88,9 +88,7 @@ copyright = "© {year} Juuso Korhonen"
 [taxonomies]
   category = "categories"
   tag = "tags"
-  topo = "topos"
-  sector = "sectors"
   type = "types"
   setter = "setters"
   fa = "fas"
-  
+

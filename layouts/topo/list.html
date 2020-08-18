@@ -6,13 +6,31 @@
     
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
 
+{{ $pathSplit := split .File.Path "/" }}
+{{ $topo := index $pathSplit 2 }}
+{{ if gt (len $pathSplit) 2 }}
+{{ $wall := index $pathSplit 3 }}
+{{ end }}
+
 <div>
   <h1>{{ .Title }}</h1>
   <div>{{ .Content }}</div>
+  
+  <div>
+    File.Path = {{ .File.Path}}<br />
+    pathSplit = {{ $pathSplit }}<br />
+    topo = {{ $topo }}<br />
+    
+    {{ if isset $wall }}
+    wall = {{ $wall }}
+    {{ end }}
+  </div>
 
   <div>
+    {{ if isset .Params "sector"}}
     {{ range .Pages.GroupByParam "sector" }}
       <h2>{{ .Key }}</h2>
+    {{ end }}
       <div class="post-list__container">
         <ul class="post-list">
           {{ range (.Pages.ByParam "sector_weight") }}
