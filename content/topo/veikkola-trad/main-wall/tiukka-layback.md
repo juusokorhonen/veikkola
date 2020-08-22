@@ -8,6 +8,7 @@ draft: false
 tags: ["nousematon"]
 math: false
 toc: false
+category: "route"
 topo: "Veikkola Trad"
 sector: "Pääseinä"
 sector_weight: 7

@@ -1,0 +1,58 @@
+@import "posts";
+
+.topo-img-overlay-wrap {
+	position: relative;
+	display: inline-block;
+	transition: transform 150ms ease-in-out;
+}
+.topo-img-overlay-wrap img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.topo-img-overlay-wrap svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill-rule:evenodd !important;
+	clip-rule:evenodd !important;
+	stroke-linecap:round !important;
+	stroke-linejoin:round !important;
+	stroke-miterlimit:1.0 !important;
+}
+.topo-img-overlay-wrap svg path {
+	fill: none !important;
+	stroke: rgb(27,158,119) !important;
+	stroke-width: 0.25em !important;
+    pointer-events: stroke;
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+  	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+.topo-img-overlay-wrap svg path.hover {
+	stroke-width: 0.50em !important;
+	stroke: rgb(117, 112, 179) !important;
+}
+.topo-img-overlay-wrap svg path.active {
+	stroke: rgb(217, 95, 2) !important;
+	stroke-width: 0.50em !important;
+}
+.inline {
+	list-style: none;
+	list-style-type: none;
+}
+.inline > li {
+	display: inline;
+}
+.inline > li:not(:last-child)::after {
+	content: " | ";
+}
+ul.routes > li {
+	color: rgb(27, 158, 119);
+}
+ul.routes > li.hover {
+	color: rgb(117, 112, 179);
+}
+ul.routes > li.active {
+	color: rgb(217, 95, 2);
+	font-weight: bolder;
+}

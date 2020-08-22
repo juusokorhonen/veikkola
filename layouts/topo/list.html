@@ -1,36 +1,28 @@
 {{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/posts.scss" "dest" "css/posts.css") }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/routes.scss" "dest" "css/routes.css") }}
+
 {{ end }}
 
 {{ define "main" }}
     
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
 
-{{ $pathSplit := split .File.Path "/" }}
-{{ $topo := index $pathSplit 2 }}
-{{ if gt (len $pathSplit) 2 }}
-{{ $wall := index $pathSplit 3 }}
-{{ end }}
-
 <div>
   <h1>{{ .Title }}</h1>
-  <div>{{ .Content }}</div>
+  {{ with .Params.subheading }}
+    <h2>{{ . }}</h2>
+  {{ end }}
   
   <div>
-    File.Path = {{ .File.Path}}<br />
-    pathSplit = {{ $pathSplit }}<br />
-    topo = {{ $topo }}<br />
-    
-    {{ if isset $wall }}
-    wall = {{ $wall }}
-    {{ end }}
-  </div>
+    {{ $topo := (index (split $.File.Dir "/") 1) }}
+    {{ $sector := (index (split $.File.Dir "/") 2) }}
 
-  <div>
-    {{ if isset .Params "sector"}}
-    {{ range .Pages.GroupByParam "sector" }}
-      <h2>{{ .Key }}</h2>
-    {{ end }}
+    {{ if (and $topo $sector) }}
+      
+      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
+      
+      <div>{{ .Content }}</div>
+
       <div class="post-list__container">
         <ul class="post-list">
           {{ range (.Pages.ByParam "sector_weight") }}
@@ -40,9 +32,9 @@
                   >{{ .Date.Format "2006" }}</time>
                 <h2 class="post__title">
                   <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                  	{{ if isset .Params "grade" }}
-            		      <span class="grade">({{ .Params.grade }})</span>
-            		    {{ end }}
+                    {{ if isset .Params "grade" }}
+                      <span class="grade">({{ .Params.grade }})</span>
+                    {{ end }}
                 </h2>
                 <div class="tags">
                   {{ if and (isset .Params "tags")  (gt (len .Params.tags) 0) }}
@@ -52,40 +44,94 @@
                   {{ end }}
                 </div>
                 <div class="info">
-                	<span class="topo">
+                  <span class="topo">
                     {{ if isset .Params "topo" }}
-        	        	  {{ .Params.topo }}
+                      {{ .Params.topo }}
                     {{ else }}
                       unknown topo
-        	          {{ end }}
+                    {{ end }}
                   </span>
                   <span class="sector">| 
-        	          {{ if isset .Params "sector" }}
+                    {{ if isset .Params "sector" }}
                       {{ if isset .Params "sector_weight" }}
                         {{ .Params.sector_weight}} @ 
                       {{ end }}
                       {{ .Params.sector }}
                     {{ else }}
                       unknown sector
-        	          {{ end }}
+                    {{ end }}
                   </span>
                   <span class="type">| 
-          	        {{ if isset .Params "type" }}
-          	        	{{ .Params.type }}
+                    {{ if isset .Params "type" }}
+                      {{ .Params.type }}
                     {{ else }}
                       unknown type
-          	        {{ end }}
+                    {{ end }}
                   </span>
-            	</div>
+              </div>
                 {{ .Summary }}
               </div>
             </li>
           {{ end }}
         </ul>
       </div>
+
+    {{ else if $topo }}
+
+      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a></span>
+      
+      <div>{{ .Content }}</div>
+
+      <div class="post-list__container">
+        <ul class="post-list">
+          {{ range (.Sections.ByWeight) }}
+            <li class="post">
+              <div class="post__header">
+                <h2 class="post__title">
+                  <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                </h2>
+                <div class="info">
+                  Info: {{ len (where .Site.RegularPages "Parent" "==" .Parent) }}<br />
+                  {{ .CurrentSection }}
+
+              </div>
+                {{ .Summary }}
+              </div>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+
+    {{ else }}
+
+      <span id="breadcrumb"><a href="/topo">topo</a></span>
+      
+      <div>{{ .Content }}</div>
+
     {{ end }}
   </div>
+
+  <div>
+    {{ if isset .Params "sector"}}
+    {{ range .Pages.GroupByParam "sector" }}
+      <h2>{{ .Key }}</h2>
+    {{ end }}
+      
+    {{ end }}
+  </div>
+
+
+
   {{ partial "browse-by-tag.html" .}}
 </div>
 
+{{ end }}
+
+{{ define "scripts" }}
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+<script src="/js/routes.js"></script>
 {{ end }}

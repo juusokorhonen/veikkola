@@ -1,4 +1,4 @@
 ---
-title: "Veikkola Trad"
+title: "Veikkola"
 subheading: ""
 --- 

@@ -8,6 +8,7 @@ draft: false
 tags: []
 math: false
 toc: false
+category: "route"
 topo: "Veikkola Trad"
 sector: "Eteläseinä"
 sector_weight: 1
