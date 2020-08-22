@@ -14,7 +14,7 @@ topo: "Veikkola Trad"
 sector: "Pääseinä"
 sector_weight: 13
 grade: "6-"
-type: "trad"
+route_type: "trad"
 setter: "Sampsa Jyrkynen"
 fa: "Sampsa Jyrkynen"
 ---

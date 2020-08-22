@@ -14,7 +14,7 @@ topo: "Veikkola Trad"
 sector: "Pääseinä"
 sector_weight: 17
 grade: "5+"
-type: "trad"
+route_type: "trad"
 setter: "Toby Archer"
 fa: "Toby Archer"
 ---

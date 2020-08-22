@@ -14,7 +14,7 @@ topo: "Veikkola Trad"
 sector: "Eteläseinä"
 sector_weight: 4
 grade: "6-"
-type: "trad"
+route_type: "trad"
 setters: ["Jan von Plato"]
 fa: ""
 ---
