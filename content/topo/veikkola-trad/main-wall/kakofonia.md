@@ -1,5 +1,6 @@
 ---
 title: "Kakofonia"
+type: route
 date: 2020-08-16T09:37:43+03:00
 slug: ""
 description: ""

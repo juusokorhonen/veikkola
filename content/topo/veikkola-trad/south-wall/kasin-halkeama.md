@@ -1,5 +1,6 @@
 ---
 title: "\"Kasin halkeama\""
+type: route
 date: 2020-08-16T09:40:30+03:00
 slug: ""
 description: ""

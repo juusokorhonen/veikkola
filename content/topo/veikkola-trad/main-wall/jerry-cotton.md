@@ -1,5 +1,6 @@
 ---
 title: "Jerry Cotton"
+type: route
 date: 2020-08-16T09:38:46+03:00
 slug: ""
 description: ""

@@ -1,5 +1,6 @@
 ---
 title: "Assosiaatio"
+type: route
 date: 2020-08-16T09:37:50+03:00
 slug: ""
 description: ""

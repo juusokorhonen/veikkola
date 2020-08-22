@@ -1,5 +1,6 @@
 ---
 title: "Kivikirves"
+type: route
 date: 1976-01-01T00:00:00+03:00
 slug: ""
 description: ""

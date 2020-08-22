@@ -1,5 +1,6 @@
 ---
 title: "Pleurokokki"
+type: route
 date: 2020-08-16T09:39:18+03:00
 slug: ""
 description: ""

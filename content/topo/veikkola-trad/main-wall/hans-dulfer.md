@@ -1,5 +1,6 @@
 ---
 title: "Hans Dülfer"
+type: route
 date: 2020-08-16T08:48:55+03:00
 slug: ""
 description: ""

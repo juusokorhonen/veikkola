@@ -1,5 +1,6 @@
 ---
 title: "Kolmiloikka"
+type: route
 date: 2020-08-16T09:39:29+03:00
 slug: ""
 description: ""
