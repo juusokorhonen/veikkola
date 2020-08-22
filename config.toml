@@ -88,6 +88,6 @@ copyright = "© {year} Juuso Korhonen"
 [taxonomies]
   category = "categories"
   tag = "tags"
-  type = "types"
+  route_type = "route_types"
   setter = "setters"
   fa = "fas"
