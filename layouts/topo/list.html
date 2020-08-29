@@ -17,6 +17,15 @@
     {{ $topo := (index (split $.File.Dir "/") 1) }}
     {{ $sector := (index (split $.File.Dir "/") 2) }}
 
+    <div class="post__page_resources">
+      <h2>Page resources:</h2>
+      <ul>
+      {{ range .Page.Resources }}
+        <li>{{ . }}</li>  
+      {{ end }}
+      </ul>
+    </div>
+
     {{ if (and $topo $sector) }}
       
       <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>

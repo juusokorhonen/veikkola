@@ -2,7 +2,6 @@
 title: "\"Seiskan halkeama\""
 type: route
 date: 2020-08-16T09:40:36+03:00
-slug: ""
 description: ""
 keywords: []
 draft: false

@@ -18,8 +18,26 @@
                   {{ partial "math.html" . }}
               {{ end }}
           </article>
+          
+          <div class="post__page_resources">
+            <h2>Page resources:</h2>
+            <ul>
+            {{ range .Page.Resources.ByType "image" }}
+              <li><a href="{{ .RelPermalink }}">{{ . }}</a></li>  
+            {{ end }}
+            </ul>
+          </div>
+          <div class="post__section_resources">
+            <h2>Section resources:</h2>
+            <ul>
+            {{ range .CurrentSection.Resources.ByType "image" }}
+              <li><a href="{{ .RelPermalink }}">{{ . }}</a></li>  
+            {{ end }}
+            </ul>
+          </div>
+
           <div class="post__sector_images">
-          <h2>Sector images</h2>
+            <h2>Sector images</h2>
           {{ partial "sectorimage.html" . }}
           </div>
           {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
