@@ -4,16 +4,24 @@
 
 {{ define "main" }}
     {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
-    {{ $topo := (index (split $.File.Dir "/") 1) }}
-    {{ $sector := (index (split $.File.Dir "/") 2) }}
+    {{ $topo_name := (index (split $.File.Dir "/") 1) }}
+    {{ $sector_name := (index (split $.File.Dir "/") 2) }}
+    {{ $sector := .Page.Parent }}
+    {{ $topo := $sector.Parent }}
+    {{ $root := $topo.Parent }}
 
     <div class="flex-wrapper">
       <div class="post__container">
         <div class="post">
           <header class="post__header">
             {{ partial "tags.html" .}} 
-            <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
-            <h1 id="post__title">{{.Title}}</h1>
+              <span id="breadcrumb">
+              {{ with $root }}{{ if not .IsHome }}<a href="{{ $root.RelPermalink }}">{{ $root.Title }}</a>&nbsp;&gt;&nbsp;{{ end }}{{ end }}
+              {{ with $topo }}{{ if not .IsHome }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&gt;&nbsp;{{ end }}{{ end }}
+              {{ with $sector }}{{ if not .IsHome }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&gt;&nbsp;{{ end }}{{ end }}
+              <a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+            </span>
+            <h1 id="post__title">{{.Title}} {{ if isset .Params "grade" }}<span class="grade">({{ .Params.grade }})</span>{{ end }}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
             
           </header>
@@ -39,10 +47,10 @@
             {{ else }}
               {{ with .Params.setters }}
                 <div class="route-setters">
-                  <h3 class="route-setters">Tekijät</h3>
+                  <h3 class="route-setters">Tekijä{{ if gt (len .) 1 }}t{{ end }}</h3>
                   <ul class="route-setters">
                     {{ range . }}
-                      <li>{{ . }}</li>
+                        <li>{{ . }}</li>
                     {{ end }}
                   </ul>
                 </div>
@@ -51,15 +59,15 @@
             {{ with .Params.fa }}
               <div class="route-fa">
                 <h3 class="route-fa">Ensinousu</h3>
-                <ul class="route-setters">
+                <ul class="route-fa">
                   <li>{{ . }}</li>
                 </ul>
               </div>
             {{ else }}
               {{ with .Params.fas }}
                 <div class="route-fa">
-                  <h3 class="route-fa">Ensinousut</h3>
-                  <ul class="route-setters">
+                  <h3 class="route-fa">Ensinousu{{ if gt (len .) 1 }}t{{ end }}</h3>
+                  <ul class="route-fa">
                     {{ range . }}
                       <li>{{ . }}</li>
                     {{ end }}

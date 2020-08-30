@@ -1,9 +1,10 @@
+{{ $id_to_title := slice }}
+{{ range where .Site.RegularPages "Section" "topo" }}
+	{{ $id_to_title =  merge $id_to_title (dict .File.ContentBaseName .Title) }}
+{{ end }}
+
 {{ if (eq .Page.Type "route") }}
 {{ $route_id := .File.ContentBaseName }}
-
-{{/*
-<p>Route ID: {{ $route_id }}</p>
-*/}}
 
 <div class="sectorimages">
 
@@ -41,7 +42,7 @@
 					<div class="sectorimage-routelist">
 						<ul class="routes inline">
 							{{ range $ids }}
-								<li data-route-id="{{ . }}" class="{{ cond (eq . $route_id) "active" "" }}">{{ . }}</li>
+								<li data-route-id="{{ . }}" class="{{ cond (eq . $route_id) "active" "" }}">{{ index $id_to_title . }}</li>
 							{{ end }}
 						</ul>
 					</div>
@@ -111,7 +112,7 @@ topo
 				<div class="sectorimage-routelist">
 					<ul class="routes inline">
 						{{ range $ids }}
-							<li data-route-id="{{ . }}">{{ . }}</li>
+							<li data-route-id="{{ . }}">{{ index $id_to_title . }}</li>
 						{{ end }}
 					</ul>
 				</div>

@@ -6,11 +6,17 @@
 {{ define "main" }}
     
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}   
-{{ $topo := (index (split $.File.Dir "/") 1) }} 
-{{ $sector := (index (split $.File.Dir "/") 2) }} 
+{{ $topo_name := (index (split $.File.Dir "/") 1) }} 
+{{ $sector_name := (index (split $.File.Dir "/") 2) }} 
+{{ $topo := .Parent }}
+{{ $root := $topo.Parent }}
 
 <div>
-  <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
+  <span id="breadcrumb">
+    {{ with $root }}{{ if not .IsHome }}<a href="{{ $root.RelPermalink }}">{{ $root.Title }}</a>&nbsp;&gt;&nbsp;{{ end }}{{ end }}
+    {{ with $topo }}{{ if not .IsHome }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>&nbsp;&gt;&nbsp;{{ end }}{{ end }}
+    <a href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+  </span>
   <h1>{{ .Title }}</h1>
   {{ with .Params.subheading }}
     <h2>{{ . }}</h2>
@@ -30,7 +36,7 @@
     </div>
     */}}
 
-    {{ if (and $topo $sector) }}
+    {{ if (and $topo_name $sector_name) }}
       
       <div>{{ .Content }}</div>
 
@@ -97,7 +103,7 @@
         </div>
       </div>
 
-    {{ else if $topo }}
+    {{ else if $topo_name }}
 
       
       
@@ -105,8 +111,8 @@
 
       {{/*
       <div>Current section: {{ .Section }}</div>
-      <div>Topo: {{ $topo }}</div>
-      <div>Sector: {{ $sector }}</div>
+      <div>Topo: {{ $topo_name }}</div>
+      <div>Sector: {{ $sector_name }}</div>
       */}}
 
       <div class="post-list__container">

@@ -15,8 +15,8 @@ sector: "Pääseinä"
 weight: 11
 grade: "4+"
 route_type: "trad"
-setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
-fa: "Maria Hämeen-Anttila"
+setters: ["Maria Hämeen-Anttila"]
+fas: ["Maria Hämeen-Anttila"]
 ---
 
 Hieno blokin ohitus yläosassa. Lähtö "Hans Dülfer" -reitin vasemmalla puolella olevasta hakeamasta.

@@ -15,8 +15,8 @@ sector: "Pääseinä"
 weight: 17
 grade: "5+"
 route_type: "trad"
-setter: "Toby Archer"
-fa: "Toby Archer"
+setters: ["Toby Archer"]
+fas: ["Toby Archer"]
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Hennes Dulfer"
+title: "Hennes Dülfer"
 type: route
 date: 2020-08-16T09:38:31+03:00
 slug: ""
