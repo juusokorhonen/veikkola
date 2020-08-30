@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 08:48:55 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 09:38:56 +0300</lastBuildDate>
     
 	<atom:link href="http://veikkola.greidi.net/fas/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Maria Hämeen-Anttila</title>
+      <link>http://veikkola.greidi.net/fas/maria-h%C3%A4meen-anttila/</link>
+      <pubDate>Sun, 16 Aug 2020 09:38:56 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/fas/maria-h%C3%A4meen-anttila/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Jan von Plato</title>
@@ -18,6 +27,15 @@
       <pubDate>Sun, 16 Aug 2020 08:48:55 +0300</pubDate>
       
       <guid>http://veikkola.greidi.net/fas/jan-von-plato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toby Archer</title>
+      <link>http://veikkola.greidi.net/fas/toby-archer/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/fas/toby-archer/</guid>
       <description></description>
     </item>
     

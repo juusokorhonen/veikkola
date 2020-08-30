@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maria Hämeen-Anttila on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/fas/maria-h%C3%A4meen-anttila/</link>
+    <description>Recent content in Maria Hämeen-Anttila on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 09:38:56 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/fas/maria-h%C3%A4meen-anttila/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lady Layback</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/lady-layback/</link>
+      <pubDate>Sun, 16 Aug 2020 09:38:56 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/lady-layback/</guid>
+      <description>Hieno blokin ohitus yläosassa. Lähtö &amp;ldquo;Hans Dülfer&amp;rdquo; -reitin vasemmalla puolella olevasta hakeamasta.</description>
+    </item>
+    
+  </channel>
+</rss>
