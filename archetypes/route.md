@@ -1,5 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
+type: route
+category: route
 date: {{ .Date }}
 slug: ""
 description: ""
@@ -13,8 +15,6 @@ sector: ""
 sector_weight: 1
 grade: ""
 type: ""
-setter: ""
+setters: []
 fa: ""
 ---
-
-# Kuvaus

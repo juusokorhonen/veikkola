@@ -17,7 +17,7 @@ copyright = "© {year} Juuso Korhonen"
 [params]
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
-  dateFormat = "Jan 2 2006"
+  dateFormat =  "2.1.2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   # twitter = "https://twitter.com/<your handle>"
@@ -88,9 +88,6 @@ copyright = "© {year} Juuso Korhonen"
 [taxonomies]
   category = "categories"
   tag = "tags"
-  topo = "topos"
-  sector = "sectors"
-  type = "types"
+  route_type = "route_types"
   setter = "setters"
   fa = "fas"
-  

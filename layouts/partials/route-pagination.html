@@ -1,0 +1,15 @@
+<div class="pagination">
+  {{if .NextInSection}}
+    <a class="pagination__item" href="{{.NextInSection.Permalink}}">
+      <span class="pagination__label">Edellinen reitti (vasemmalle)</span>
+      <span class="pagination__title" >{{.NextInSection.Title}}</a>
+    </a>
+  {{end}}
+
+  {{if .PrevInSection}}
+    <a class="pagination__item" href="{{.PrevInSection.Permalink}}">
+        <span class="pagination__label">Seuraava reitti (oikealle)</span>
+        <span class="pagination__title">{{.PrevInSection.Title}}</span>
+    </a>
+  {{end}}
+</div>
