@@ -75,5 +75,7 @@
     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
     crossorigin="anonymous"></script>
 
-  <script src="/js/routes.js"></script>
+  {{ with resources.Get "js/routes.js" }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
 {{ end }}
