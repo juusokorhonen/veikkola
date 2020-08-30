@@ -1,4 +1,5 @@
 var hoverRoute = function(route_id) {
+<<<<<<< HEAD
 	$('path[data-route-id='+route_id+']').addClass('hover');
 	$('li[data-route-id='+route_id+']').addClass('hover');
 	$('.post__header h3[data-route-id='+route_id+']').addClass('hover');
@@ -7,15 +8,31 @@ var unHoverRoute = function(route_id) {
 	$('path[data-route-id='+route_id+']').removeClass('hover');
 	$('li[data-route-id='+route_id+']').removeClass('hover');
 	$('.post__header > h3[data-route-id='+route_id+']').removeClass('hover');
+=======
+	//$('#' + route_id).addClass('hover');
+	$('path[data-route-id='+route_id+']').addClass('hover');
+	$('li[data-route-id='+route_id+']').addClass('hover');
+};
+var unHoverRoute = function(route_id) {
+	//$('#' + route_id).removeClass('hover');
+	$('path[data-route-id='+route_id+']').removeClass('hover');
+	$('li[data-route-id='+route_id+']').removeClass('hover');
+>>>>>>> master
 };
 var setActiveRoute = function(route_id) {
 	$('.topo-img-overlay-wrap path').removeClass('active');
 	$('ul.routes li').removeClass('active');
+<<<<<<< HEAD
 	$('.post__header h3').removeClass('active');
 
 	$('path[data-route-id='+route_id+']').addClass('active');	
 	$('li[data-route-id='+route_id+']').addClass('active');	
 	$('.post__header h3[data-route-id='+route_id+']').addClass('active');
+=======
+	//$('#' + route_id).addClass('active');
+	$('path[data-route-id='+route_id+']').addClass('active');	
+	$('li[data-route-id='+route_id+']').addClass('active');	
+>>>>>>> master
 };
 $(function() {
 	// Document loaded
