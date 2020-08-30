@@ -3,12 +3,137 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</loc>
+    <lastmod>2020-08-16T09:40:22+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/minikirves/</loc>
+    <lastmod>2020-08-16T09:37:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</loc>
+    <lastmod>2020-08-16T09:40:30+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/hyvanmielenreitti/</loc>
+    <lastmod>2020-08-16T09:37:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</loc>
+    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/kakofonia/</loc>
+    <lastmod>2020-08-16T09:37:43+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/assosiaatio/</loc>
+    <lastmod>2020-08-16T09:37:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/ulkoneva-halkeama/</loc>
+    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/krapula/</loc>
+    <lastmod>2020-08-16T09:37:58+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/erikoinen-savutorvi/</loc>
+    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/la-mossa/</loc>
+    <lastmod>2020-08-16T09:38:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/nelosen-halkeama/</loc>
+    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/tiukka-layback/</loc>
+    <lastmod>2020-08-16T09:38:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/hennes-dulfer/</loc>
+    <lastmod>2020-08-16T09:38:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/veikkolan-lukko/</loc>
+    <lastmod>2020-08-16T09:38:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/jerry-cotton/</loc>
+    <lastmod>2020-08-16T09:38:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/lady-layback/</loc>
+    <lastmod>2020-08-16T09:38:56+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/hans-dulfer/</loc>
+    <lastmod>2020-08-16T08:48:55+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/kolmiloikka/</loc>
+    <lastmod>2020-08-16T09:39:29+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pulteriprobleema/</loc>
+    <lastmod>2020-08-16T09:39:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pleurokokki/</loc>
+    <lastmod>2020-08-16T09:39:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/kruisailu/</loc>
+    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/blizzard-crack/</loc>
+    <lastmod>2011-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/kivikirves/</loc>
+    <lastmod>1976-01-01T00:00:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/nuija/</loc>
+    <lastmod>2020-08-16T09:40:09+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/</loc>
     <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/route/seiskan-halkeama/</loc>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/</loc>
     <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
   
@@ -28,11 +153,6 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/route/</loc>
-    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://veikkola.greidi.net/setters/</loc>
     <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
@@ -43,132 +163,27 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/route/kasin-halkeama/</loc>
-    <lastmod>2020-08-16T09:40:30+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/pilastro/</loc>
-    <lastmod>2020-08-16T09:40:22+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/nuija/</loc>
-    <lastmod>2020-08-16T09:40:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/kolmiloikka/</loc>
-    <lastmod>2020-08-16T09:39:29+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/pleurokokki/</loc>
-    <lastmod>2020-08-16T09:39:18+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/pulteriprobleema/</loc>
-    <lastmod>2020-08-16T09:39:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/lady-layback/</loc>
-    <lastmod>2020-08-16T09:38:56+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/jerry-cotton/</loc>
-    <lastmod>2020-08-16T09:38:46+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/veikkolan-lukko/</loc>
-    <lastmod>2020-08-16T09:38:37+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/hennes-dulfer/</loc>
-    <lastmod>2020-08-16T09:38:31+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/tiukka-layback/</loc>
-    <lastmod>2020-08-16T09:38:20+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/la-mossa/</loc>
-    <lastmod>2020-08-16T09:38:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/krapula/</loc>
-    <lastmod>2020-08-16T09:37:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/assosiaatio/</loc>
-    <lastmod>2020-08-16T09:37:50+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/kakofonia/</loc>
-    <lastmod>2020-08-16T09:37:43+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/hyvanmielenreitti/</loc>
-    <lastmod>2020-08-16T09:37:37+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/minikirves/</loc>
-    <lastmod>2020-08-16T09:37:28+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/sector/south-wall/</loc>
-    <lastmod>2020-08-16T09:16:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/sector/</loc>
-    <lastmod>2020-08-16T09:16:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/types/trad/</loc>
-    <lastmod>2020-08-16T09:16:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/types/</loc>
-    <lastmod>2020-08-16T09:16:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/sector/main-wall/</loc>
-    <lastmod>2020-08-16T09:15:44+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/types/boulder/</loc>
-    <lastmod>2020-08-16T09:13:03+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://veikkola.greidi.net/topo/</loc>
-    <lastmod>2020-08-16T09:13:03+03:00</lastmod>
+    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/</loc>
-    <lastmod>2020-08-16T09:13:03+03:00</lastmod>
+    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/route/hans-dulfer/</loc>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/</loc>
+    <lastmod>2020-08-16T09:40:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/fas/</loc>
+    <lastmod>2020-08-16T08:48:55+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/fas/jan-von-plato/</loc>
     <lastmod>2020-08-16T08:48:55+03:00</lastmod>
   </url>
   
@@ -183,49 +198,15 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/route/blizzard-crack/</loc>
-    <lastmod>2011-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/erikoinen-savutorvi/</loc>
-    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/kruisailu/</loc>
-    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/nelosen-halkeama/</loc>
-    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/ulkoneva-halkeama/</loc>
-    <lastmod>1977-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/route/kivikirves/</loc>
-    <lastmod>1976-01-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://veikkola.greidi.net/categories/</loc>
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/fas/</loc>
+    <loc>http://veikkola.greidi.net/route_types/</loc>
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/sectors/</loc>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/topos/</loc>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/</loc>
   </url>
   
 </urlset>

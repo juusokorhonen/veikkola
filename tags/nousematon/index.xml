@@ -13,48 +13,48 @@
     
     
     <item>
-      <title>&#34;Seiskan halkeama&#34;</title>
-      <link>http://veikkola.greidi.net/route/seiskan-halkeama/</link>
-      <pubDate>Sun, 16 Aug 2020 09:40:36 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/seiskan-halkeama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>&#34;Kasin halkeama&#34;</title>
-      <link>http://veikkola.greidi.net/route/kasin-halkeama/</link>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</link>
       <pubDate>Sun, 16 Aug 2020 09:40:30 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/route/kasin-halkeama/</guid>
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pleurokokki</title>
-      <link>http://veikkola.greidi.net/route/pleurokokki/</link>
-      <pubDate>Sun, 16 Aug 2020 09:39:18 +0300</pubDate>
+      <title>&#34;Seiskan halkeama&#34;</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</link>
+      <pubDate>Sun, 16 Aug 2020 09:40:36 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/route/pleurokokki/</guid>
-      <description>Vihreän leväkasvuston (pleurococcus) värittämä halkeama vasemmalle viistoon. Sitten pyöreän pulterin kohdalta oikealle ylös.</description>
-    </item>
-    
-    <item>
-      <title>&#34;Pulteriprobleema&#34;</title>
-      <link>http://veikkola.greidi.net/route/pulteriprobleema/</link>
-      <pubDate>Sun, 16 Aug 2020 09:39:09 +0300</pubDate>
-      
-      <guid>http://veikkola.greidi.net/route/pulteriprobleema/</guid>
-      <description>Lähtö luolamaisen syvennyksen oikeasta reunasta, jonka päältä suoraan ylös.</description>
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>&#34;Tiukka layback&#34;</title>
-      <link>http://veikkola.greidi.net/route/tiukka-layback/</link>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/tiukka-layback/</link>
       <pubDate>Sun, 16 Aug 2020 09:38:20 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/route/tiukka-layback/</guid>
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/tiukka-layback/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Pulteriprobleema&#34;</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pulteriprobleema/</link>
+      <pubDate>Sun, 16 Aug 2020 09:39:09 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pulteriprobleema/</guid>
+      <description>Lähtö luolamaisen syvennyksen oikeasta reunasta, jonka päältä suoraan ylös.</description>
+    </item>
+    
+    <item>
+      <title>Pleurokokki</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pleurokokki/</link>
+      <pubDate>Sun, 16 Aug 2020 09:39:18 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/pleurokokki/</guid>
+      <description>Vihreän leväkasvuston (pleurococcus) värittämä halkeama vasemmalle viistoon. Sitten pyöreän pulterin kohdalta oikealle ylös.</description>
     </item>
     
   </channel>
