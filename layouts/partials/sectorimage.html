@@ -1,25 +1,39 @@
 {{ if (eq .Page.Type "route") }}
+{{ $route_id := .File.ContentBaseName }}
+
+<p>{{ $route_id }}</p>
 
 <div class="sectorimages">
+
 	{{ range .CurrentSection.Resources.Match "**.svg" }}
 		{{ $svgFile := .RelPermalink | readFile }}
 		{{ $pngFile := printf "%s.%s" (index (split . ".") 0) "png" }}
 		{{ with $.CurrentSection.Resources.GetMatch $pngFile }}
+			{{ $.Scratch.Set "image" (.Fit "300x300") }}
+			{{ $image := $.Scratch.Get "image" }}
 			<div class="sectorimage">
+				{{ $ids := index (slice (split (findRE "id=\"([a-zA-Z0-9_]*)\"" $svgFile) "\"")) 1 }}
 				<div class="topo-img-overlay-wrap">
-					<img src="{{ .RelPermalink }}" width="" height="" />
-					<svg width="100%" height="100%" viewBox="0 0 0 0" version="1.1" xmlns="http://www.w3.org/2000/svg"
+					<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />
+					<svg width="{{ $image.Width }}" height="{{ $image.Height }}" viewBox="0 0 1553 1354" version="1.1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 						{{ range findRE "<path.*?(.|\n)*?.*?>" $svgFile }}
 							{{ safeHTML . }}
 						{{ end }}
 					</svg>
 				</div>
+				<div class="sectorimage-routelist">
+					<ul class="routes inline">
+						{{ range (findRE "id=\"([a-zA-Z0-9_]*)\"" $svgFile) }}
+							{{ $id := index (split . "\"") 1 }}
+							<li data-route-id="{{ $id }}">{{ $id }}</li>
+						{{ end }}
+					</ul>
+				</div>
 			</div>
 		{{ end }}
 	{{ end }}
+
 	{{/*
-
-
 	<div class="sectorimage">
 		<div class="topo-img-overlay-wrap">
 			{{- $original := .Page.Resources.GetMatch "images/topo.png" -}}
@@ -39,6 +53,7 @@
 		</div>
 	</div>
 	*/}}
+
 </div>
 
 {{ else if (eq .Page.Type "sector") }}
