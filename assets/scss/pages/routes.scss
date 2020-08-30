@@ -4,11 +4,8 @@
 	position: relative;
 	display: inline-block;
 	transition: transform 150ms ease-in-out;
-<<<<<<< HEAD
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-=======
->>>>>>> master
 }
 .topo-img-overlay-wrap img {
 	display: block;
@@ -27,33 +24,19 @@
 }
 .topo-img-overlay-wrap svg path {
 	fill: none !important;
-<<<<<<< HEAD
 	stroke: rgba(27,158,119, 0.7) !important;
 	stroke-width: 0.75em !important;
-=======
-	stroke: rgb(27,158,119) !important;
-	stroke-width: 0.25em !important;
->>>>>>> master
     pointer-events: stroke;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
   	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 .topo-img-overlay-wrap svg path.hover {
-<<<<<<< HEAD
 	stroke-width: 0.75em !important;
 	stroke: rgba(117, 112, 179, 0.7) !important;
 }
 .topo-img-overlay-wrap svg path.active {
 	stroke: rgba(217, 95, 2, 0.7) !important;
 	stroke-width: 1.00em !important;
-=======
-	stroke-width: 0.50em !important;
-	stroke: rgb(117, 112, 179) !important;
-}
-.topo-img-overlay-wrap svg path.active {
-	stroke: rgb(217, 95, 2) !important;
-	stroke-width: 0.50em !important;
->>>>>>> master
 }
 .inline {
 	list-style: none;
@@ -65,7 +48,6 @@
 .inline > li:not(:last-child)::after {
 	content: " | ";
 }
-<<<<<<< HEAD
 ul.route-info {
 	list-style: none;
 	display: block;
@@ -94,8 +76,6 @@ ul.routes {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
-=======
->>>>>>> master
 ul.routes > li {
 	color: rgb(27, 158, 119);
 }
@@ -109,7 +89,6 @@ ul.routes > li.active {
 .route-list {
 	display: block;
 	float: none;
-<<<<<<< HEAD
 }
 .post-sector__images {
 	flex-flow: column wrap;
@@ -176,6 +155,4 @@ ul.tags__list {
 }
 .post__header > h3.active > a{
 	color: rgb(217, 95, 2);
-=======
->>>>>>> master
 }

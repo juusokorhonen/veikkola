@@ -5,30 +5,19 @@
 
 {{ define "main" }}
     
-<<<<<<< HEAD
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}   
 {{ $topo := (index (split $.File.Dir "/") 1) }} 
 {{ $sector := (index (split $.File.Dir "/") 2) }} 
 
 <div>
   <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
-=======
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
-
-<div>
->>>>>>> master
   <h1>{{ .Title }}</h1>
   {{ with .Params.subheading }}
     <h2>{{ . }}</h2>
   {{ end }}
   
   <div>
-<<<<<<< HEAD
 
-=======
-    {{ $topo := (index (split $.File.Dir "/") 1) }}
-    {{ $sector := (index (split $.File.Dir "/") 2) }}
->>>>>>> master
 
     {{/*
     <div class="post__page_resources">
@@ -43,36 +32,24 @@
 
     {{ if (and $topo $sector) }}
       
-<<<<<<< HEAD
       <div>{{ .Content }}</div>
 
       <div class="post-sector__images">
-=======
-      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
-      
-      <div>{{ .Content }}</div>
-
-      <div class="post__sector_images">
->>>>>>> master
         <h2>Topokuvat</h2>
         {{ partial "sectorimage.html" . }}
         </div>
       </div>  
 
-<<<<<<< HEAD
       <div class="sector-info">
         
       </div>
 
-=======
->>>>>>> master
       <div class="post-list__container">
         <h2>Reitit</h2>
         <div class="route-list">
           <ul class="post-list">
             {{ range (.Pages.ByParam "sector_weight") }}
               <li class="post">
-<<<<<<< HEAD
                 <div class="post__header" data-route-id="{{ .File.ContentBaseName }}">
                   {{ partial "tags.html" .}} 
                   <h3 class="post__title" data-route-id="{{ .File.ContentBaseName }}">
@@ -86,25 +63,6 @@
                   
                   <div class="info">
                     {{/*
-=======
-                <div class="post__header">
-                  <time class="post__date" datetime="{{ .Date }}"
-                    >{{ .Date.Format "2006" }}</time>
-                  <h2 class="post__title">
-                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                      {{ if isset .Params "grade" }}
-                        <span class="grade">({{ .Params.grade }})</span>
-                      {{ end }}
-                  </h2>
-                  <div class="tags">
-                    {{ if and (isset .Params "tags")  (gt (len .Params.tags) 0) }}
-                      <span class="tags">
-                        {{ delimit .Params.tags ", "}}
-                      </span>
-                    {{ end }}
-                  </div>
-                  <div class="info">
->>>>>>> master
                     <span class="topo">
                       {{ if isset .Params "topo" }}
                         {{ .Params.topo }}
@@ -129,14 +87,9 @@
                         unknown type
                       {{ end }}
                     </span>
-<<<<<<< HEAD
                     */}}
                     {{ .Summary }}
                   </div>
-=======
-                </div>
-                  {{ .Summary }}
->>>>>>> master
                 </div>
               </li>
             {{ end }}
@@ -146,7 +99,6 @@
 
     {{ else if $topo }}
 
-<<<<<<< HEAD
       
       
       <div>{{ .Content }}</div>
@@ -180,35 +132,10 @@
             </div>
           </div>
         {{ end }}
-=======
-      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a></span>
-      
-      <div>{{ .Content }}</div>
-
-      <div class="post-list__container">
-        <ul class="post-list">
-          {{ range (.Sections.ByWeight) }}
-            <li class="post">
-              <div class="post__header">
-                <h2 class="post__title">
-                  <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                </h2>
-                <div class="info">
-                  Info: {{ len (where .Site.RegularPages "Parent" "==" .Parent) }}<br />
-                  {{ .CurrentSection }}
-
-              </div>
-                {{ .Summary }}
-              </div>
-            </li>
-          {{ end }}
-        </ul>
->>>>>>> master
       </div>
 
 
     {{ else }}
-<<<<<<< HEAD
       
       <div>{{ .Content }}</div>
 
@@ -240,13 +167,6 @@
         {{ end }}
       </div>
 
-=======
-
-      <span id="breadcrumb"><a href="/topo">topo</a></span>
-      
-      <div>{{ .Content }}</div>
-
->>>>>>> master
     {{ end }}
   </div>
 
@@ -258,13 +178,6 @@
       
     {{ end }}
   </div>
-<<<<<<< HEAD
-=======
-
-
-
-  {{ partial "browse-by-tag.html" .}}
->>>>>>> master
 </div>
 
 {{ end }}
