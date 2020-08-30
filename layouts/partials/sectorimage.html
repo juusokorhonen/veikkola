@@ -1,7 +1,9 @@
 {{ if (eq .Page.Type "route") }}
 {{ $route_id := .File.ContentBaseName }}
 
-<p>{{ $route_id }}</p>
+{{/*
+<p>Route ID: {{ $route_id }}</p>
+*/}}
 
 <div class="sectorimages">
 
@@ -9,13 +11,23 @@
 		{{ $svgFile := .RelPermalink | readFile }}
 		{{ $pngFile := printf "%s.%s" (index (split . ".") 0) "png" }}
 		{{ with $.CurrentSection.Resources.GetMatch $pngFile }}
-			{{ $image := (.Fit "300x300") }}
+			{{ $image := (.Fit "450x450") }}
 			{{ $ids := slice }}
-			{{ range findRE "id=\"([a-zA-Z0-9_]*)\"" $svgFile }}
+			{{ range findRE "id=\"([a-zA-Z0-9_-]*)\"" $svgFile }}
 				{{ $ids = $ids | append (replaceRE "id=\"(.*)\"" "$1" .) }}
 			{{ end }}
 
-			{{ if in $route_id $ids }}
+			{{/*
+			<p>Route IDs:
+				<ul>
+				{{ range $ids }}
+					<li>{{ . }}</li>
+				{{ end }}
+				</ul>
+			</p>
+			*/}}
+
+			{{ if in $ids $route_id }}
 				<div class="sectorimage">
 					<div class="topo-img-overlay-wrap">
 						<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />
@@ -27,9 +39,8 @@
 					</div>
 					<div class="sectorimage-routelist">
 						<ul class="routes inline">
-							{{ range (findRE "id=\"([a-zA-Z0-9_]*)\"" $svgFile) }}
-								{{ $id := index (split . "\"") 1 }}
-								<li data-route-id="{{ $id }}">{{ $id }}</li>
+							{{ range $ids }}
+								<li data-route-id="{{ . }}" class="{{ cond (eq . $route_id) "active" "" }}">{{ . }}</li>
 							{{ end }}
 						</ul>
 					</div>

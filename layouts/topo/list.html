@@ -17,6 +17,7 @@
     {{ $topo := (index (split $.File.Dir "/") 1) }}
     {{ $sector := (index (split $.File.Dir "/") 2) }}
 
+    {{/*
     <div class="post__page_resources">
       <h2>Page resources:</h2>
       <ul>
@@ -25,6 +26,7 @@
       {{ end }}
       </ul>
     </div>
+    */}}
 
     {{ if (and $topo $sector) }}
       
@@ -32,57 +34,66 @@
       
       <div>{{ .Content }}</div>
 
+      <div class="post__sector_images">
+        <h2>Topokuvat</h2>
+        {{ partial "sectorimage.html" . }}
+        </div>
+      </div>  
+
       <div class="post-list__container">
-        <ul class="post-list">
-          {{ range (.Pages.ByParam "sector_weight") }}
-            <li class="post">
-              <div class="post__header">
-                <time class="post__date" datetime="{{ .Date }}"
-                  >{{ .Date.Format "2006" }}</time>
-                <h2 class="post__title">
-                  <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                    {{ if isset .Params "grade" }}
-                      <span class="grade">({{ .Params.grade }})</span>
-                    {{ end }}
-                </h2>
-                <div class="tags">
-                  {{ if and (isset .Params "tags")  (gt (len .Params.tags) 0) }}
-                    <span class="tags">
-                      {{ delimit .Params.tags ", "}}
-                    </span>
-                  {{ end }}
-                </div>
-                <div class="info">
-                  <span class="topo">
-                    {{ if isset .Params "topo" }}
-                      {{ .Params.topo }}
-                    {{ else }}
-                      unknown topo
-                    {{ end }}
-                  </span>
-                  <span class="sector">| 
-                    {{ if isset .Params "sector" }}
-                      {{ if isset .Params "sector_weight" }}
-                        {{ .Params.sector_weight}} @ 
+        <h2>Reitit</h2>
+        <div class="route-list">
+          <ul class="post-list">
+            {{ range (.Pages.ByParam "sector_weight") }}
+              <li class="post">
+                <div class="post__header">
+                  <time class="post__date" datetime="{{ .Date }}"
+                    >{{ .Date.Format "2006" }}</time>
+                  <h2 class="post__title">
+                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                      {{ if isset .Params "grade" }}
+                        <span class="grade">({{ .Params.grade }})</span>
                       {{ end }}
-                      {{ .Params.sector }}
-                    {{ else }}
-                      unknown sector
+                  </h2>
+                  <div class="tags">
+                    {{ if and (isset .Params "tags")  (gt (len .Params.tags) 0) }}
+                      <span class="tags">
+                        {{ delimit .Params.tags ", "}}
+                      </span>
                     {{ end }}
-                  </span>
-                  <span class="type">| 
-                    {{ if isset .Params "type" }}
-                      {{ .Params.type }}
-                    {{ else }}
-                      unknown type
-                    {{ end }}
-                  </span>
-              </div>
-                {{ .Summary }}
-              </div>
-            </li>
-          {{ end }}
-        </ul>
+                  </div>
+                  <div class="info">
+                    <span class="topo">
+                      {{ if isset .Params "topo" }}
+                        {{ .Params.topo }}
+                      {{ else }}
+                        unknown topo
+                      {{ end }}
+                    </span>
+                    <span class="sector">| 
+                      {{ if isset .Params "sector" }}
+                        {{ if isset .Params "sector_weight" }}
+                          {{ .Params.sector_weight}} @ 
+                        {{ end }}
+                        {{ .Params.sector }}
+                      {{ else }}
+                        unknown sector
+                      {{ end }}
+                    </span>
+                    <span class="type">| 
+                      {{ if isset .Params "type" }}
+                        {{ .Params.type }}
+                      {{ else }}
+                        unknown type
+                      {{ end }}
+                    </span>
+                </div>
+                  {{ .Summary }}
+                </div>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
 
     {{ else if $topo }}

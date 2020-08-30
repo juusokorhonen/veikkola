@@ -12,7 +12,7 @@ toc: false
 category: "route"
 topo: "Veikkola Trad"
 sector: "Pääseinä"
-sector_weight: 17
+weight: 17
 grade: "5+"
 route_type: "trad"
 setter: "Toby Archer"

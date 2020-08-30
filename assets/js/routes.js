@@ -22,8 +22,8 @@ $(function() {
 	} else {
 		var activeRouteElem = $('ul.routes li.active');
 		if (activeRouteElem.length === 1) {
-			//setActiveRoute(activeRoute);
-			console.log(activeRouteElem[0])
+			var activeRoute = activeRouteElem[0].getAttribute('data-route-id');
+			setActiveRoute(activeRoute);
 		}
 	}
 	$('.topo-img-overlay-wrap svg path').hover(function() {

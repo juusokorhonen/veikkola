@@ -48,6 +48,7 @@
 }
 ul.routes > li {
 	color: rgb(27, 158, 119);
+	font-size: smaller;
 }
 ul.routes > li.hover {
 	color: rgb(117, 112, 179);
@@ -55,4 +56,29 @@ ul.routes > li.hover {
 ul.routes > li.active {
 	color: rgb(217, 95, 2);
 	font-weight: bolder;
+}
+ul.route-setters {
+  list-style: none;
+  list-style-type: none;
+  display: inline;
+}
+ul.route-setters > li {
+  display: inline;
+}
+ul.route-setters > li:not(:last-child):after {
+	content: ", ";
+}
+ul.route-fa {
+  list-style: none;
+  list-style-type: none;
+  display: inline;
+}
+ul.route-fa > li {
+  display: inline;
+}
+ul.route-fa > li:not(:last-child):after {
+	content: ", ";
+}
+ul.tags__list {
+	float: right;
 }

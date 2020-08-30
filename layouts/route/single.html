@@ -9,24 +9,74 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
+            {{ partial "tags.html" .}} 
             <h1 id="post__title">{{.Title}}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
           </header>
           <article class="post__content">
+            <div class="route-description">
+              <h2>Reitin kuvaus</h2>
               {{ partial "anchored-headings.html" .Content }}
               {{ if or .Params.math .Site.Params.math }}
                   {{ partial "math.html" . }}
               {{ end }}
+            </div>
           </article>
-          
-          <div class="post__page_resources">
-            <h2>Page resources:</h2>
-            <ul>
-            {{ range .Page.Resources.ByType "image" }}
-              <li><a href="{{ .RelPermalink }}">{{ . }}</a></li>  
+
+          <div class="post__route_info">
+            <h2 class="route-info">Reitin tiedot</h2>
+            {{ with .Params.setter }}
+              <div class="route-setters">
+                <h3 class="route-setters">Tekijä</h3>
+                <ul class="route-setters">
+                  <li>{{ . }}</li> 
+                </ul>
+              </div>
+            {{ else }}
+              {{ with .Params.setters }}
+                <div class="route-setters">
+                  <h3 class="route-setters">Tekijät</h3>
+                  <ul class="route-setters">
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
             {{ end }}
-            </ul>
+            {{ with .Params.fa }}
+              <div class="route-fa">
+                <h3 class="route-fa">Ensinousu</h3>
+                <ul class="route-setters">
+                  <li>{{ . }}</li>
+                </ul>
+              </div>
+            {{ else }}
+              {{ with .Params.fas }}
+                <div class="route-fa">
+                  <h3 class="route-fa">Ensinousut</h3>
+                  <ul class="route-setters">
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+            {{ end }}
           </div>
+          
+          {{ if gt (len .Page.Resources) 1 }}
+            <div class="post__page_resources">
+              <h2>Reittikuvat:</h2>
+              <ul>
+              {{ range .Page.Resources.ByType "image" }}
+                <li><a href="{{ .RelPermalink }}">{{ . }}</a></li>  
+              {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+
+          {{/*
           <div class="post__section_resources">
             <h2>Section resources:</h2>
             <ul>
@@ -35,12 +85,13 @@
             {{ end }}
             </ul>
           </div>
+          */}}
 
           <div class="post__sector_images">
-            <h2>Sector images</h2>
+            <h2>Sektorin kuvat</h2>
           {{ partial "sectorimage.html" . }}
           </div>
-          {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
+          {{ partial "route-pagination.html" .}}
           {{ template "_internal/disqus.html" . }}
           <footer class="post__footer">
             {{ partial "social-icons.html" .}}
