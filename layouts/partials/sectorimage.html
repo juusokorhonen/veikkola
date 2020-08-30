@@ -73,11 +73,11 @@
 
 </div>
 
-{{ else if (eq .Page.Type "sector") }}
-
-sector
-
 {{ else if (eq .Page.Type "topo") }}
+
+topo
+
+{{ else if (eq .Page.Type "sector") }}
 
 <div class="sectorimages">
 	{{ range .CurrentSection.Resources.Match "**.svg" }}

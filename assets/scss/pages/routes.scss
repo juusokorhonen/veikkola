@@ -48,6 +48,30 @@
 .inline > li:not(:last-child)::after {
 	content: " | ";
 }
+ul.route-info {
+	list-style: none;
+	display: block;
+	float: none;
+	margin: 0 0 0 0;
+	padding: 0.5em 0 1em 0.5em;
+}
+ul.route-info > li {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+ul.route-info > li > ul {
+	list-style: none;
+	display: block;
+	padding: 0 0 0 0;
+}
+ul.route-info > li > ul > li {
+	color: black;
+	display: inline;
+	font-size: small;
+}
+ul.route-info > li > ul > li:not(:last-child)::after {
+	content: ", ";
+}
 ul.routes {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;

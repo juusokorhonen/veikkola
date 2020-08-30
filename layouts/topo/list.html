@@ -99,36 +99,73 @@
 
     {{ else if $topo }}
 
-      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a></span>
+      
       
       <div>{{ .Content }}</div>
 
-      <div class="post-list__container">
-        <ul class="post-list">
-          {{ range (.Sections.ByWeight) }}
-            <li class="post">
-              <div class="post__header">
-                <h2 class="post__title">
-                  <a href="{{.RelPermalink}}">{{ .Title }}</a>
-                </h2>
-                <div class="info">
-                  Info: {{ len (where .Site.RegularPages "Parent" "==" .Parent) }}<br />
-                  {{ .CurrentSection }}
+      {{/*
+      <div>Current section: {{ .Section }}</div>
+      <div>Topo: {{ $topo }}</div>
+      <div>Sector: {{ $sector }}</div>
+      */}}
 
+      <div class="post-list__container">
+        {{ range (.Sections.ByWeight) }}
+          <div class="post">
+            <div class="post__header">
+              <h2 class="post__title">
+                <a href="{{.RelPermalink}}">{{ .Title }}</a>
+              </h2>
+              <div class="info">
+                <ul class="route-info">
+                  <li>Reittejä: {{ len .RegularPages.ByWeight }}</li>
+                  <li>
+                    <ul class="routes">
+                      {{ range .RegularPages.ByWeight }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                </ul>
               </div>
-                {{ .Summary }}
-              </div>
-            </li>
-          {{ end }}
-        </ul>
+              {{ .Summary }}
+            </div>
+          </div>
+        {{ end }}
       </div>
 
 
     {{ else }}
-
-      <span id="breadcrumb"><a href="/topo">topo</a></span>
       
       <div>{{ .Content }}</div>
+
+      <div class="post-list__container">
+        {{ range (.Sections.ByWeight) }}
+          <div class="post">
+            <div class="post__header">
+              <h2 class="post__title">
+                <a href="{{.RelPermalink}}">{{ .Title }}</a>
+              </h2>
+              <div class="content">
+                {{ .Summary }}
+              </div>
+              <div class="info">
+                <ul class="route-info">
+                  {{ $current_sector := index (split .File.Dir "/") 1 }}
+                  <li>Sektoreita: {{ len .Pages.ByWeight }}
+                  <li>
+                    <ul class="routes">
+                      {{ range .RegularPages.ByWeight }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
 
     {{ end }}
   </div>
@@ -141,10 +178,6 @@
       
     {{ end }}
   </div>
-
-
-
-  {{ partial "browse-by-tag.html" .}}
 </div>
 
 {{ end }}
