@@ -72,18 +72,6 @@ copyright = "© {year} Juuso Korhonen"
   title = "Topot"
   url = "/topo/"
 
-[[menu.main]]
-  identifier = "sectors"
-  name = "sektorit"
-  title = "Sektorit"
-  url = "/sector/"
-
-[[menu.main]]
-  identifier = "routes"
-  name = "reitit"
-  title = "Reitit"
-  url = "/route/"
-
 # Custom taxonomies
 [taxonomies]
   category = "categories"

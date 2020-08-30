@@ -5,17 +5,30 @@
 
 {{ define "main" }}
     
+<<<<<<< HEAD
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}   
+{{ $topo := (index (split $.File.Dir "/") 1) }} 
+{{ $sector := (index (split $.File.Dir "/") 2) }} 
+
+<div>
+  <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
+=======
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
 
 <div>
+>>>>>>> master
   <h1>{{ .Title }}</h1>
   {{ with .Params.subheading }}
     <h2>{{ . }}</h2>
   {{ end }}
   
   <div>
+<<<<<<< HEAD
+
+=======
     {{ $topo := (index (split $.File.Dir "/") 1) }}
     {{ $sector := (index (split $.File.Dir "/") 2) }}
+>>>>>>> master
 
     {{/*
     <div class="post__page_resources">
@@ -30,22 +43,50 @@
 
     {{ if (and $topo $sector) }}
       
+<<<<<<< HEAD
+      <div>{{ .Content }}</div>
+
+      <div class="post-sector__images">
+=======
       <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
       
       <div>{{ .Content }}</div>
 
       <div class="post__sector_images">
+>>>>>>> master
         <h2>Topokuvat</h2>
         {{ partial "sectorimage.html" . }}
         </div>
       </div>  
 
+<<<<<<< HEAD
+      <div class="sector-info">
+        
+      </div>
+
+=======
+>>>>>>> master
       <div class="post-list__container">
         <h2>Reitit</h2>
         <div class="route-list">
           <ul class="post-list">
             {{ range (.Pages.ByParam "sector_weight") }}
               <li class="post">
+<<<<<<< HEAD
+                <div class="post__header" data-route-id="{{ .File.ContentBaseName }}">
+                  {{ partial "tags.html" .}} 
+                  <h3 class="post__title" data-route-id="{{ .File.ContentBaseName }}">
+                    <a href="{{.RelPermalink}}" data-route-id="{{ .File.ContentBaseName }}">{{ .Title }}</a>
+                      {{ if isset .Params "grade" }}
+                        <span class="grade">({{ .Params.grade }})</span>
+                      {{ end }}
+                  </h3>
+                  <time class="post__date" datetime="{{ .Date }}"
+                    >{{ .Date.Format "2006" }}</time>
+                  
+                  <div class="info">
+                    {{/*
+=======
                 <div class="post__header">
                   <time class="post__date" datetime="{{ .Date }}"
                     >{{ .Date.Format "2006" }}</time>
@@ -63,6 +104,7 @@
                     {{ end }}
                   </div>
                   <div class="info">
+>>>>>>> master
                     <span class="topo">
                       {{ if isset .Params "topo" }}
                         {{ .Params.topo }}
@@ -87,8 +129,14 @@
                         unknown type
                       {{ end }}
                     </span>
+<<<<<<< HEAD
+                    */}}
+                    {{ .Summary }}
+                  </div>
+=======
                 </div>
                   {{ .Summary }}
+>>>>>>> master
                 </div>
               </li>
             {{ end }}
@@ -98,6 +146,41 @@
 
     {{ else if $topo }}
 
+<<<<<<< HEAD
+      
+      
+      <div>{{ .Content }}</div>
+
+      {{/*
+      <div>Current section: {{ .Section }}</div>
+      <div>Topo: {{ $topo }}</div>
+      <div>Sector: {{ $sector }}</div>
+      */}}
+
+      <div class="post-list__container">
+        {{ range (.Sections.ByWeight) }}
+          <div class="post">
+            <div class="post__header">
+              <h2 class="post__title">
+                <a href="{{.RelPermalink}}">{{ .Title }}</a>
+              </h2>
+              <div class="info">
+                <ul class="route-info">
+                  <li>Reittejä: {{ len .RegularPages.ByWeight }}</li>
+                  <li>
+                    <ul class="routes">
+                      {{ range .RegularPages.ByWeight }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              {{ .Summary }}
+            </div>
+          </div>
+        {{ end }}
+=======
       <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a></span>
       
       <div>{{ .Content }}</div>
@@ -120,15 +203,50 @@
             </li>
           {{ end }}
         </ul>
+>>>>>>> master
       </div>
 
 
     {{ else }}
+<<<<<<< HEAD
+      
+      <div>{{ .Content }}</div>
+
+      <div class="post-list__container">
+        {{ range (.Sections.ByWeight) }}
+          <div class="post">
+            <div class="post__header">
+              <h2 class="post__title">
+                <a href="{{.RelPermalink}}">{{ .Title }}</a>
+              </h2>
+              <div class="content">
+                {{ .Summary }}
+              </div>
+              <div class="info">
+                <ul class="route-info">
+                  {{ $current_sector := index (split .File.Dir "/") 1 }}
+                  <li>Sektoreita: {{ len .Pages.ByWeight }}
+                  <li>
+                    <ul class="routes">
+                      {{ range .RegularPages.ByWeight }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+
+=======
 
       <span id="breadcrumb"><a href="/topo">topo</a></span>
       
       <div>{{ .Content }}</div>
 
+>>>>>>> master
     {{ end }}
   </div>
 
@@ -140,10 +258,13 @@
       
     {{ end }}
   </div>
+<<<<<<< HEAD
+=======
 
 
 
   {{ partial "browse-by-tag.html" .}}
+>>>>>>> master
 </div>
 
 {{ end }}

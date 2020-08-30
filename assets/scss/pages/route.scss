@@ -22,18 +22,30 @@
 }
 .topo-img-overlay-wrap svg path {
 	fill: none !important;
+<<<<<<< HEAD
+	stroke: rgba(27,158,119, 0.7) !important;
+	stroke-width: 0.50em !important;
+=======
 	stroke: rgb(27,158,119) !important;
 	stroke-width: 0.25em !important;
+>>>>>>> master
     pointer-events: stroke;
     -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
   	filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
 }
 .topo-img-overlay-wrap svg path.hover {
 	stroke-width: 1.00em !important;
+<<<<<<< HEAD
+	stroke: rgba(117, 112, 179, 0.7) !important;
+}
+.topo-img-overlay-wrap svg path.active {
+	stroke: rgba(217, 95, 2, 0.7) !important;
+=======
 	stroke: rgb(117, 112, 179) !important;
 }
 .topo-img-overlay-wrap svg path.active {
 	stroke: rgb(217, 95, 2) !important;
+>>>>>>> master
 	stroke-width: 1.00em !important;
 }
 .inline {
@@ -81,4 +93,38 @@ ul.route-fa > li:not(:last-child):after {
 }
 ul.tags__list {
 	float: right;
+<<<<<<< HEAD
+}
+.route-description > h2::after {
+	content: " ";
+	display: block;
+	border: 0.25pt solid rgb(217, 95, 2);
+}
+.post__route_info > h2::after {
+	content: " ";
+	display: block;
+	border: 0.25pt solid rgb(217, 95, 2);
+}
+.post__sector_images {
+	flex-flow: column wrap;
+}
+.post__sector_images > h2::after {
+	content: " ";
+	display: block;
+	border: 0.25pt solid rgb(217, 95, 2);
+}
+.sectorimages {
+	flex-flow: column wrap;
+}
+h1 {
+	padding-top: 0.25em;
+	margin-top: 0;
+}
+#breadcrumb {
+	font-size: smaller;
+}
+.post {
+	max-width: 100%;
+=======
+>>>>>>> master
 }
