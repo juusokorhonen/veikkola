@@ -5,17 +5,19 @@
 
 {{ define "main" }}
     
-{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}    
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}   
+{{ $topo := (index (split $.File.Dir "/") 1) }} 
+{{ $sector := (index (split $.File.Dir "/") 2) }} 
 
 <div>
+  <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
   <h1>{{ .Title }}</h1>
   {{ with .Params.subheading }}
     <h2>{{ . }}</h2>
   {{ end }}
   
   <div>
-    {{ $topo := (index (split $.File.Dir "/") 1) }}
-    {{ $sector := (index (split $.File.Dir "/") 2) }}
+
 
     {{/*
     <div class="post__page_resources">
@@ -30,15 +32,17 @@
 
     {{ if (and $topo $sector) }}
       
-      <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
-      
       <div>{{ .Content }}</div>
 
-      <div class="post__sector_images">
+      <div class="post-sector__images">
         <h2>Topokuvat</h2>
         {{ partial "sectorimage.html" . }}
         </div>
       </div>  
+
+      <div class="sector-info">
+        
+      </div>
 
       <div class="post-list__container">
         <h2>Reitit</h2>
@@ -46,23 +50,19 @@
           <ul class="post-list">
             {{ range (.Pages.ByParam "sector_weight") }}
               <li class="post">
-                <div class="post__header">
-                  <time class="post__date" datetime="{{ .Date }}"
-                    >{{ .Date.Format "2006" }}</time>
-                  <h2 class="post__title">
-                    <a href="{{.RelPermalink}}">{{ .Title }}</a>
+                <div class="post__header" data-route-id="{{ .File.ContentBaseName }}">
+                  {{ partial "tags.html" .}} 
+                  <h3 class="post__title" data-route-id="{{ .File.ContentBaseName }}">
+                    <a href="{{.RelPermalink}}" data-route-id="{{ .File.ContentBaseName }}">{{ .Title }}</a>
                       {{ if isset .Params "grade" }}
                         <span class="grade">({{ .Params.grade }})</span>
                       {{ end }}
-                  </h2>
-                  <div class="tags">
-                    {{ if and (isset .Params "tags")  (gt (len .Params.tags) 0) }}
-                      <span class="tags">
-                        {{ delimit .Params.tags ", "}}
-                      </span>
-                    {{ end }}
-                  </div>
+                  </h3>
+                  <time class="post__date" datetime="{{ .Date }}"
+                    >{{ .Date.Format "2006" }}</time>
+                  
                   <div class="info">
+                    {{/*
                     <span class="topo">
                       {{ if isset .Params "topo" }}
                         {{ .Params.topo }}
@@ -87,8 +87,9 @@
                         unknown type
                       {{ end }}
                     </span>
-                </div>
-                  {{ .Summary }}
+                    */}}
+                    {{ .Summary }}
+                  </div>
                 </div>
               </li>
             {{ end }}

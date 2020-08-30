@@ -4,14 +4,18 @@
 
 {{ define "main" }}
     {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2 2006" }}
+    {{ $topo := (index (split $.File.Dir "/") 1) }}
+    {{ $sector := (index (split $.File.Dir "/") 2) }}
 
     <div class="flex-wrapper">
       <div class="post__container">
         <div class="post">
           <header class="post__header">
             {{ partial "tags.html" .}} 
+            <span id="breadcrumb"><a href="/topo">topo</a> &gt; <a href="/topo/{{- $topo -}}/">{{ $topo }}</a> &gt; <a href="/topo/{{- $topo -}}/{{- $sector -}}">{{ $sector }}</a></span>
             <h1 id="post__title">{{.Title}}</h1>
             {{ if .Date }}<time datetime="{{ .Date }}" class="post__date">{{ .Date.Format $dateFormat }}</time> {{ end }}
+            
           </header>
           <article class="post__content">
             <div class="route-description">
@@ -88,7 +92,7 @@
           */}}
 
           <div class="post__sector_images">
-            <h2>Sektorin kuvat</h2>
+            <h2>Topokuvat</h2>
           {{ partial "sectorimage.html" . }}
           </div>
           {{ partial "route-pagination.html" .}}
