@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autiotalo on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/</link>
+    <description>Recent content in Autiotalo on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sat, 05 Sep 2020 17:09:18 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mantle Menace</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/mantle-menace/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:18 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/mantle-menace/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

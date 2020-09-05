@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/</loc>
+    <lastmod>2020-09-05T17:10:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/</loc>
+    <lastmod>2020-09-05T17:09:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-trad/</loc>
+    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</loc>
     <lastmod>2020-08-16T09:40:22+03:00</lastmod>
   </url>
@@ -15,6 +30,16 @@
   <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/minikirves/</loc>
     <lastmod>2020-08-16T09:37:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/</loc>
+    <lastmod>2020-09-05T17:10:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/</loc>
+    <lastmod>2020-09-05T17:09:07+03:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +58,11 @@
   </url>
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/</loc>
+    <lastmod>2020-09-05T17:08:30+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</loc>
     <lastmod>2020-08-16T09:40:36+03:00</lastmod>
   </url>
@@ -40,6 +70,11 @@
   <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/kakofonia/</loc>
     <lastmod>2020-08-16T09:37:43+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/</loc>
+    <lastmod>2020-09-05T17:07:10+03:00</lastmod>
   </url>
   
   <url>
@@ -63,6 +98,11 @@
   </url>
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/</loc>
+    <lastmod>2020-09-05T17:06:33+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/la-mossa/</loc>
     <lastmod>2020-08-16T09:38:09+03:00</lastmod>
   </url>
@@ -73,13 +113,28 @@
   </url>
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/tiukka-layback/</loc>
     <lastmod>2020-08-16T09:38:20+03:00</lastmod>
   </url>
   
   <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/</loc>
+    <lastmod>2020-09-05T17:04:54+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/hennes-dulfer/</loc>
     <lastmod>2020-08-16T09:38:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/</loc>
+    <lastmod>2020-09-05T17:04:18+03:00</lastmod>
   </url>
   
   <url>
@@ -90,6 +145,11 @@
   <url>
     <loc>http://veikkola.greidi.net/topo/veikkola-trad/main-wall/jerry-cotton/</loc>
     <lastmod>2020-08-16T09:38:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/</loc>
+    <lastmod>2018-06-30T18:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -139,7 +199,312 @@
   
   <url>
     <loc>http://veikkola.greidi.net/</loc>
-    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
+    <lastmod>2020-09-05T20:48:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/posts/</loc>
+    <lastmod>2020-09-05T20:48:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/posts/tervehdys/</loc>
+    <lastmod>2020-09-05T20:48:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/mister-meat/</loc>
+    <lastmod>2020-09-05T17:10:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/</loc>
+    <lastmod>2020-09-05T17:10:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/pettymysten-johnson/</loc>
+    <lastmod>2020-09-05T17:10:43+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/jaa-a/</loc>
+    <lastmod>2020-09-05T17:10:34+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/h%C3%B6yhenist%C3%B6/</loc>
+    <lastmod>2020-09-05T17:10:30+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-eines/</loc>
+    <lastmod>2020-09-05T17:10:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-aines/</loc>
+    <lastmod>2020-09-05T17:10:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/fap-fap-sneaky/</loc>
+    <lastmod>2020-09-05T17:10:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/feels-good/</loc>
+    <lastmod>2020-09-05T17:10:09+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-crimps/</loc>
+    <lastmod>2020-09-05T17:10:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/per%C3%A4p%C3%A4%C3%A4/</loc>
+    <lastmod>2020-09-05T17:09:55+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/tap-dat-ass/</loc>
+    <lastmod>2020-09-05T17:09:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/cat-face-vs-balls/</loc>
+    <lastmod>2020-09-05T17:09:44+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/l%C3%A4mmin-herra/</loc>
+    <lastmod>2020-09-05T17:09:38+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/push-and-go/</loc>
+    <lastmod>2020-09-05T17:09:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-groove/</loc>
+    <lastmod>2020-09-05T17:09:27+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/mantle-menace/</loc>
+    <lastmod>2020-09-05T17:09:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/suihkuripuli/</loc>
+    <lastmod>2020-09-05T17:09:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/ruiskusipuli/</loc>
+    <lastmod>2020-09-05T17:09:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-4/</loc>
+    <lastmod>2020-09-05T17:08:54+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-3/</loc>
+    <lastmod>2020-09-05T17:08:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-2/</loc>
+    <lastmod>2020-09-05T17:08:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihuli-mutta-seikkailullinen/</loc>
+    <lastmod>2020-09-05T17:08:30+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihulin-nightmare/</loc>
+    <lastmod>2020-09-05T17:08:20+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/softicus-maximus/</loc>
+    <lastmod>2020-09-05T17:08:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/batmans-evidence/</loc>
+    <lastmod>2020-09-05T17:08:04+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kryptinen-alku/</loc>
+    <lastmod>2020-09-05T17:08:04+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/feels-even-better/</loc>
+    <lastmod>2020-09-05T17:07:58+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kaksip%C3%A4di-edward/</loc>
+    <lastmod>2020-09-05T17:07:50+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/ghetto-bird/</loc>
+    <lastmod>2020-09-05T17:07:39+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/focus-on-movements/</loc>
+    <lastmod>2020-09-05T17:07:32+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/l%C3%A4mpp%C3%A4rata/</loc>
+    <lastmod>2020-09-05T17:07:25+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/tuli-ihan-puun-takaa-ss/</loc>
+    <lastmod>2020-09-05T17:07:10+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-oikeaan-ss/</loc>
+    <lastmod>2020-09-05T17:07:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-vasempaan-ss/</loc>
+    <lastmod>2020-09-05T17:06:55+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankarin-paluu/</loc>
+    <lastmod>2020-09-05T17:06:33+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/enter-the-xander-zone/</loc>
+    <lastmod>2020-09-05T17:06:23+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari-stand/</loc>
+    <lastmod>2020-09-05T17:06:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari/</loc>
+    <lastmod>2020-09-05T17:06:05+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/mets%C3%A4-on-palatsi/</loc>
+    <lastmod>2020-09-05T17:05:54+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/p%C3%B6nkk%C3%A4/</loc>
+    <lastmod>2020-09-05T17:05:47+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/vein-johnson/</loc>
+    <lastmod>2020-09-05T17:05:40+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/rhinosaur/</loc>
+    <lastmod>2020-09-05T17:05:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/coreluola/</loc>
+    <lastmod>2020-09-05T17:05:26+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/fas/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/setters/juuso-korhonen/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/fas/juuso-korhonen/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/savun-h%C3%A4lvetty%C3%A4/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/setters/</loc>
+    <lastmod>2020-09-05T17:05:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</loc>
+    <lastmod>2020-09-05T17:05:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/setters/selma-korhonen/</loc>
+    <lastmod>2020-09-05T17:05:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/fas/selma-korhonen/</loc>
+    <lastmod>2020-09-05T17:05:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vpk-sammuttaa/</loc>
+    <lastmod>2020-09-05T17:04:54+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/keulii-ss/</loc>
+    <lastmod>2020-09-05T17:04:43+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vieras-mies-tuli-taloon-ss/</loc>
+    <lastmod>2020-09-05T17:04:34+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/kikattava-kakkiainen/</loc>
+    <lastmod>2020-09-05T17:04:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4liina-ss/</loc>
+    <lastmod>2020-09-05T17:04:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4humputus-ss/</loc>
+    <lastmod>2020-09-05T17:04:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/konna-ss/</loc>
+    <lastmod>2020-09-05T17:03:55+03:00</lastmod>
   </url>
   
   <url>
@@ -158,28 +523,8 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/setters/</loc>
-    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://veikkola.greidi.net/tags/</loc>
     <lastmod>2020-08-16T09:40:36+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/topo/</loc>
-    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/topo/veikkola-trad/</loc>
-    <lastmod>2020-08-16T09:40:36+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/fas/</loc>
-    <lastmod>2020-08-16T09:38:56+03:00</lastmod>
   </url>
   
   <url>
@@ -193,13 +538,13 @@
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/posts/about/</loc>
-    <lastmod>2020-08-15T11:30:02+03:00</lastmod>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/kuulu-joukkoon/</loc>
+    <lastmod>2020-08-12T18:00:00+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://veikkola.greidi.net/posts/</loc>
-    <lastmod>2020-08-15T11:30:02+03:00</lastmod>
+    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</loc>
+    <lastmod>2018-06-30T18:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -218,10 +563,6 @@
   
   <url>
     <loc>http://veikkola.greidi.net/route_types/</loc>
-  </url>
-  
-  <url>
-    <loc>http://veikkola.greidi.net/topo/veikkola-boulder/</loc>
   </url>
   
 </urlset>

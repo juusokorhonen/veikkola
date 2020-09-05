@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selma Korhonen on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/fas/selma-korhonen/</link>
+    <description>Recent content in Selma Korhonen on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sat, 05 Sep 2020 17:05:07 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/fas/selma-korhonen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hiidenkivi</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:07 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</guid>
+      <description>Halkeamareitti ohi reitillä kasvavan puun. Sopii hyvin parheen pienimmille harjoittelureitiksi. Ensinousija oli 4-vuotias.</description>
+    </item>
+    
+  </channel>
+</rss>

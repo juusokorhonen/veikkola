@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urheilukenttä, oikea on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/</link>
+    <description>Recent content in Urheilukenttä, oikea on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sat, 30 Jun 2018 18:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Puuttuva Tupee</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</link>
+      <pubDate>Sat, 30 Jun 2018 18:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</guid>
+      <description>Släbityylinen reitti korkeahkon kiven oikeassa reunassa.</description>
+    </item>
+    
+  </channel>
+</rss>

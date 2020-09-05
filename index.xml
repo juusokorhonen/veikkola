@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 09:40:36 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 20:48:49 +0300</lastBuildDate>
     
 	<atom:link href="http://veikkola.greidi.net/index.xml" rel="self" type="application/rss+xml" />
     
@@ -238,12 +238,498 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://veikkola.greidi.net/posts/about/</link>
-      <pubDate>Sat, 15 Aug 2020 11:30:02 +0300</pubDate>
+      <title>Tervehdys</title>
+      <link>http://veikkola.greidi.net/posts/tervehdys/</link>
+      <pubDate>Sat, 05 Sep 2020 20:48:49 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/posts/about/</guid>
+      <guid>http://veikkola.greidi.net/posts/tervehdys/</guid>
+      <description>Kesällä 2020 olin kiipeilytuttavani Mikko Salon kanssa tutustumassa Veikkolan &amp;ldquo;Maa ja taivas&amp;rdquo;-sektorin bouldereihin. Kesken kaiken kuulimme ystävällisen tervehdyksen ja näimme kuinka vanhempi mieshenkilö tuli valjaat päällä juttelemaan kanssamme. Hetken aikaa kesti, kunnes minulla välähti ja kysyin: &amp;ldquo;Mahdatkohan olla Jan von Plato?&amp;rdquo;. Juttelimme jonkin aikaa ja lähtiessämme kävimme vielä vilkaisemassa mitä Jan oli alueella tekemässä. Kalliolle oli syntymässä suuri joukko trädireittejä ja saimme kuulla tarinan siitä kuinka Jan oli jo 70-luvulla löytänyt alueen kalliot.</description>
+    </item>
+    
+    <item>
+      <title>Mister Meat</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/mister-meat/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:49 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/mister-meat/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Pettymysten Johnson</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/pettymysten-johnson/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:43 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/pettymysten-johnson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jaa&#39;a</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/jaa-a/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:34 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/jaa-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Höyhenistö</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/h%C3%B6yhenist%C3%B6/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:30 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/h%C3%B6yhenist%C3%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Köyhempi Eines</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-eines/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:24 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-eines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Köyhempi Aines</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-aines/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:21 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/k%C3%B6yhempi-aines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fap fap sneaky</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/fap-fap-sneaky/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:15 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/fap-fap-sneaky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feels good</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/feels-good/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:09 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/feels-good/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ride the crimps</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-crimps/</link>
+      <pubDate>Sat, 05 Sep 2020 17:10:01 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-crimps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peräpää</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/per%C3%A4p%C3%A4%C3%A4/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:55 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/per%C3%A4p%C3%A4%C3%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tap dat ass</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/tap-dat-ass/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:50 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/tap-dat-ass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cat face VS balls</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/cat-face-vs-balls/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:44 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/cat-face-vs-balls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lämmin herra</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/l%C3%A4mmin-herra/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:38 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/l%C3%A4mmin-herra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Push and GO</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/push-and-go/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:33 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/push-and-go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ride the groove</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-groove/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:27 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/10/ride-the-groove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mantle Menace</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/mantle-menace/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:18 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/autiotalo/mantle-menace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suihkuripuli</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/suihkuripuli/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:07 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/suihkuripuli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruiskusipuli</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/ruiskusipuli/</link>
+      <pubDate>Sat, 05 Sep 2020 17:09:02 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/ruiskusipuli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Route #4</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-4/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:54 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Route #3</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-3/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:50 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Route #2</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-2/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:49 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/bouldernurkka/route-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nihuli mutta seikkailullinen</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihuli-mutta-seikkailullinen/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:30 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihuli-mutta-seikkailullinen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nihulin nightmare</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihulin-nightmare/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:20 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/nihulin-nightmare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Softicus Maximus</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/softicus-maximus/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:12 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/softicus-maximus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Batman&#39;s evidence</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/batmans-evidence/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:04 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/batmans-evidence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kryptinen alku</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kryptinen-alku/</link>
+      <pubDate>Sat, 05 Sep 2020 17:08:04 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kryptinen-alku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feels even better</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/feels-even-better/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:58 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/feels-even-better/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kaksipädi Edward</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kaksip%C3%A4di-edward/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:50 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/kaksip%C3%A4di-edward/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ghetto Bird</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/ghetto-bird/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:39 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/ghetto-bird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Focus on movements</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/focus-on-movements/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:32 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/focus-on-movements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lämppärata</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/l%C3%A4mpp%C3%A4rata/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:25 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/high-hanging-fruits/l%C3%A4mpp%C3%A4rata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tuli ihan puun takaa ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/tuli-ihan-puun-takaa-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:10 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/tuli-ihan-puun-takaa-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katse oikeaan ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-oikeaan-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:02 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-oikeaan-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katse vasempaan ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-vasempaan-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:55 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-vasempaan-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uzi-sankarin paluu</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankarin-paluu/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:33 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankarin-paluu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enter the xander zone</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/enter-the-xander-zone/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:23 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/enter-the-xander-zone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uzi-sankari stand</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari-stand/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:15 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari-stand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uzi-sankari</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:05 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/uzi-sankari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metsä on palatsi</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/mets%C3%A4-on-palatsi/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:54 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/mets%C3%A4-on-palatsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pönkkä</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/p%C3%B6nkk%C3%A4/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:47 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/p%C3%B6nkk%C3%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vein Johnson</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/vein-johnson/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:40 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/vein-johnson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rhinosaur</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/rhinosaur/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:31 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/rhinosaur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coreluola</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/coreluola/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:26 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/coreluola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Savun Hälvettyä</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/savun-h%C3%A4lvetty%C3%A4/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:16 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/savun-h%C3%A4lvetty%C3%A4/</guid>
+      <description>Parin muuvin släbireitti. Ensinousun jälkeen vasemmalta paljastui lisää otteita, jotka tiputtanevat reitin vaikeusasteen ennemminkin neloseksi.</description>
+    </item>
+    
+    <item>
+      <title>Hiidenkivi</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:07 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</guid>
+      <description>Halkeamareitti ohi reitillä kasvavan puun. Sopii hyvin parheen pienimmille harjoittelureitiksi. Ensinousija oli 4-vuotias.</description>
+    </item>
+    
+    <item>
+      <title>VPK sammuttaa</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vpk-sammuttaa/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:54 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vpk-sammuttaa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keulii ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/keulii-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:43 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/keulii-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vieras mies tuli taloon ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vieras-mies-tuli-taloon-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:34 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/savun-hajua/vieras-mies-tuli-taloon-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kikattava Kakkiainen</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/kikattava-kakkiainen/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:18 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/kikattava-kakkiainen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nenäliina ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4liina-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:07 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4liina-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nenähumputus ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4humputus-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:04:02 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/nen%C3%A4humputus-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konna ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/konna-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:03:55 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4/konna-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kuulu joukkoon</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/kuulu-joukkoon/</link>
+      <pubDate>Wed, 12 Aug 2020 18:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/kuulu-joukkoon/</guid>
+      <description>Tekninen reitti, joka ei vaadi valtavia sormivoimia reitille pääsemiseksi.</description>
+    </item>
+    
+    <item>
+      <title>Puuttuva Tupee</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</link>
+      <pubDate>Sat, 30 Jun 2018 18:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</guid>
+      <description>Släbityylinen reitti korkeahkon kiven oikeassa reunassa.</description>
     </item>
     
   </channel>

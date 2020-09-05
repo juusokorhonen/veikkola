@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hylly on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/</link>
+    <description>Recent content in Hylly on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sat, 05 Sep 2020 17:07:10 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/topo/veikkola-boulder/hylly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tuli ihan puun takaa ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/tuli-ihan-puun-takaa-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:10 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/tuli-ihan-puun-takaa-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katse oikeaan ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-oikeaan-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:07:02 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-oikeaan-ss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katse vasempaan ss</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-vasempaan-ss/</link>
+      <pubDate>Sat, 05 Sep 2020 17:06:55 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/hylly/katse-vasempaan-ss/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

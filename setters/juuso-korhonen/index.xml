@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juuso Korhonen on Veikkolan kiipeilypuisto</title>
+    <link>http://veikkola.greidi.net/setters/juuso-korhonen/</link>
+    <description>Recent content in Juuso Korhonen on Veikkolan kiipeilypuisto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi-FI</language>
+    <copyright>© {year} Juuso Korhonen</copyright>
+    <lastBuildDate>Sat, 05 Sep 2020 17:05:16 +0300</lastBuildDate>
+    
+	<atom:link href="http://veikkola.greidi.net/setters/juuso-korhonen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Savun Hälvettyä</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/savun-h%C3%A4lvetty%C3%A4/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:16 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/savun-h%C3%A4lvetty%C3%A4/</guid>
+      <description>Parin muuvin släbireitti. Ensinousun jälkeen vasemmalta paljastui lisää otteita, jotka tiputtanevat reitin vaikeusasteen ennemminkin neloseksi.</description>
+    </item>
+    
+    <item>
+      <title>Hiidenkivi</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</link>
+      <pubDate>Sat, 05 Sep 2020 17:05:07 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/mustikkakallio/hiidenkivi/</guid>
+      <description>Halkeamareitti ohi reitillä kasvavan puun. Sopii hyvin parheen pienimmille harjoittelureitiksi. Ensinousija oli 4-vuotias.</description>
+    </item>
+    
+    <item>
+      <title>Kuulu joukkoon</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/kuulu-joukkoon/</link>
+      <pubDate>Wed, 12 Aug 2020 18:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/maa-ja-taivas/kuulu-joukkoon/</guid>
+      <description>Tekninen reitti, joka ei vaadi valtavia sormivoimia reitille pääsemiseksi.</description>
+    </item>
+    
+    <item>
+      <title>Puuttuva Tupee</title>
+      <link>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</link>
+      <pubDate>Sat, 30 Jun 2018 18:00:00 +0300</pubDate>
+      
+      <guid>http://veikkola.greidi.net/topo/veikkola-boulder/urheilukentt%C3%A4-oikea/puuttuva-tupee/</guid>
+      <description>Släbityylinen reitti korkeahkon kiven oikeassa reunassa.</description>
+    </item>
+    
+  </channel>
+</rss>
