@@ -13,7 +13,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- Twitter -->
-  {{ if isset .Site.Params "twitter" }}
+  {{ with .Site.Params.twitter }}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{ if .IsHome }}{{ htmlEscape .Site.Params.description }}{{ else }}{{ htmlEscape .Description }}{{ end }}"/>
@@ -55,7 +55,11 @@
     {{ block "main" . }} {{ end }}
   </main>
 
-  {{ block "footer" . }} {{ end }}
+  <footer class="footer">
+    {{ block "footer" . }}
+      {{ partial "footer.html" }}
+    {{ end }}
+  </footer>
 
   {{ $script := resources.Get "js/index.js" | minify | fingerprint }}
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity | safeHTMLAttr }}" crossorigin="anonymous"></script>

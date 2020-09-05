@@ -61,10 +61,10 @@ copyright = "© {year} Juuso Korhonen"
   url = "/"
 
 [[menu.main]]
-  identifier = "blog"
+  identifier = "posts"
   name = "blogi"
   title = "Blogi"
-  url = "/blog/"
+  url = "/posts/"
 
 [[menu.main]]
   identifier = "topos"

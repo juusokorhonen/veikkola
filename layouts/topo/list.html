@@ -38,6 +38,12 @@
 
     {{ if (and $topo_name $sector_name) }}
       
+      {{ with .Page.Params.link_27crags }}
+        <div class="post__27crags_link">
+          Sektorin tiedot: <a href="{{ . }}">27crags.com</a>-palvelussa.
+        </div>
+      {{ end }}
+
       <div>{{ .Content }}</div>
 
       <div class="post-sector__images">
@@ -105,7 +111,11 @@
 
     {{ else if $topo_name }}
 
-      
+      {{ with .Page.Params.link_27crags }}
+        <div class="post__27crags_link">
+          Topon tiedot: <a href="{{ . }}">27crags.com</a>-palvelussa.
+        </div>
+      {{ end }}
       
       <div>{{ .Content }}</div>
 
@@ -128,7 +138,7 @@
                   <li>
                     <ul class="routes">
                       {{ range .RegularPages.ByWeight }}
-                        <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }} {{ with .Params.grade }} ({{ . }}){{ end }}</a></li>
                       {{ end }}
                     </ul>
                   </li>
@@ -159,7 +169,7 @@
                 <ul class="route-info">
                   {{ $current_sector := index (split .File.Dir "/") 1 }}
                   <li>Sektoreita: {{ len .Pages.ByWeight }}
-                  <li>
+                  <li>Reittejä: {{ len .RegularPagesRecursive }}
                     <ul class="routes">
                       {{ range .RegularPages.ByWeight }}
                         <li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Params.grade }})</a></li>

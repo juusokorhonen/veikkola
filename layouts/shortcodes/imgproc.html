@@ -1,0 +1,27 @@
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $command := .Get "command" | default "Fit" }}
+{{ $size := .Get "size" | default "300x300" }}
+{{ $title := .Get "title" | default "" }}
+{{ $alt := .Get "alt" | default $title }}
+{{ $caption := .Get "caption" | default .Inner }}
+{{ if eq $command "Fit"}}
+{{ .Scratch.Set "image" ($original.Fit $size) }}
+{{ else if eq $command "Resize"}}
+{{ .Scratch.Set "image" ($original.Resize $size) }}
+{{ else if eq $command "Fill"}}
+{{ .Scratch.Set "image" ($original.Fill $size) }}
+{{ else }}
+{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+<figure style="padding: 0.25rem; margin: 2rem 0;">
+	<div class="image-with-caption" style="width: {{ $image.Width }}px">
+		<img style="max-width: 100%; width: auto; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" title="{{ $title }}" alt="{{ $alt }}" />
+		<figcaption>
+		<small>
+			{{ $caption }}
+		</small>
+		</figcaption>
+	</div>
+</figure>  
