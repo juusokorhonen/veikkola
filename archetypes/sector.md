@@ -2,12 +2,8 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 slug: ""
+type: sector
+weight: 10
 description: ""
 keywords: []
-draft: true
-tags: []
-math: false
-toc: false
-topo: ""
-types: []
 ---

@@ -107,13 +107,19 @@ h1 {
 	padding-top: 0.25em;
 	margin-top: 0;
 }
-#breadcrumb {
-	font-size: smaller;
-}
 .post {
 	max-width: 100%;
 }
 .grade {
 	font-size: 70%;
 	color: rgb(109, 109, 109);
+}
+.post__27crags_link {
+	margin-top: 0.5em;
+	font-size: 0.8em;
+	color: rgb(109, 109, 109);
+}
+.post__27crags_link > a {
+	color: rgb(87, 87, 87);
+
 }

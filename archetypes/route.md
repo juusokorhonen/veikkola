@@ -1,20 +1,19 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-type: route
-category: route
 date: {{ .Date }}
+type: route
+category: "route"
 slug: ""
 description: ""
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
-topo: ""
-sector: ""
-sector_weight: 1
-grade: ""
-type: ""
-setters: []
-fa: ""
+sector: "Pääseinä"
+weight: 12
+grade: "5+"
+route_type: ""
+setters: [""]
+fas: [""]
 ---

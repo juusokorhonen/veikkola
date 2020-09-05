@@ -138,11 +138,11 @@ h1 {
 	padding-top: 0.25em;
 	margin-top: 0;
 }
-#breadcrumb {
-	font-size: smaller;
-}
 ul.tags__list {
 	float: right;
+}
+.post__header {
+	font-size: 0.8em;
 }
 .post__header > h3.hover {
 	color: rgb(117, 112, 179);
@@ -155,4 +155,17 @@ ul.tags__list {
 }
 .post__header > h3.active > a{
 	color: rgb(217, 95, 2);
+}
+.post__header > p {
+	margin: 0;
+	padding: 0;
+}
+.post__27crags_link {
+	margin-top: 0.5em;
+	font-size: 0.8em;
+	color: rgb(109, 109, 109);
+}
+.post__27crags_link > a {
+	color: rgb(87, 87, 87);
+
 }

@@ -1,6 +1,8 @@
 ---
 title: "Veikkola Trad"
-subheading: ""
+type: topo
+category: "topo"
+weight: 1
 --- 
 
-Veikkolan trädikallio.
+Veikkolan trädikallio. <!--more-->
