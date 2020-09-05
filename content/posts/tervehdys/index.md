@@ -1,7 +1,7 @@
 ---
 title: "Tervehdys"
 date: 2020-09-05T20:48:49+03:00
-draft: true
+draft: false
 ---
 
 Kesällä 2020 olin kiipeilytuttavani Mikko Salon kanssa tutustumassa Veikkolan ["Maa ja taivas"]({{<ref "/topo/veikkola-boulder/maa-ja-taivas">}})-sektorin bouldereihin. Kesken kaiken kuulimme ystävällisen tervehdyksen ja näimme kuinka vanhempi mieshenkilö tuli valjaat päällä juttelemaan kanssamme. Hetken aikaa kesti, kunnes minulla välähti ja kysyin: "Mahdatkohan olla Jan von Plato?". Juttelimme jonkin aikaa ja lähtiessämme kävimme vielä vilkaisemassa mitä Jan oli alueella tekemässä. Kalliolle oli syntymässä suuri joukko trädireittejä ja saimme kuulla tarinan siitä kuinka Jan oli jo 70-luvulla löytänyt alueen kalliot. Nyt oli siis tarkoituksena virkistää alue uudelleen aktiiviseen kiipeilykäyttöön. 
