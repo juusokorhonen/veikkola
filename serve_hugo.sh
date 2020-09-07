@@ -6,4 +6,6 @@ set -a
 [ -f .env ] && source .env 
 set +a
 
-hugo serve -D
+echo "Running: \`hugo serve -D $*\`"
+hugo serve -D $*
+

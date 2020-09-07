@@ -110,8 +110,13 @@
           {{ partial "sectorimage.html" . }}
           </div>
 
+          <div class="post__comments">
+            <h2>Kommentit</h2>
+            {{ partial "disqus.html" . }}
+          </div>
+
           {{ partial "route-pagination.html" .}}
-          {{ template "_internal/disqus.html" . }}
+          
           </div>
       </div>
       {{ if .Params.toc }}

@@ -100,6 +100,11 @@ ul.tags__list {
 	display: block;
 	border: 0.25pt solid rgb(217, 95, 2);
 }
+.post__comments > h2::after {
+	content: " ";
+	display: block;
+	border: 0.25pt solid rgb(217, 95, 2);
+}
 .sectorimages {
 	flex-flow: column wrap;
 }
