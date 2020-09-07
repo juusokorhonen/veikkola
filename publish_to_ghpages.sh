@@ -1,5 +1,11 @@
 #!/bin/sh
 
+set -e
+
+set -a
+[ -f .env ] && . .env
+set +a
+
 if [ "`git status -s`" ]
 then
     echo "The working directory is dirty. Please commit any pending changes."
@@ -24,7 +30,8 @@ hugo
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
-echo "Run \`git push --all\` to publish your changes."
-#echo "Pushing to github"
+#echo "Run \`git push --all\` to publish your changes."
+echo "Pushing to github"
+git push origin ghpages
 #git push --all
 
