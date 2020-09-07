@@ -32,6 +32,6 @@ cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)
 
 #echo "Run \`git push --all\` to publish your changes."
 echo "Pushing to github"
-git push origin ghpages
+git push origin gh-pages
 #git push --all
 
