@@ -8,7 +8,7 @@ theme = "codex"
 copyright = "© {year} Juuso Korhonen"
 
 # Add your Disqus shortname here.
-# disqusShortname = ""
+disqusShortname = ""
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
 # googleAnalytics = "" 
