@@ -13,6 +13,7 @@ var setActiveRoute = function(route_id) {
 	$('ul.routes li').removeClass('active');
 	$('.post__header h3').removeClass('active');
 
+
 	$('path[data-route-id='+route_id+']').addClass('active');	
 	$('li[data-route-id='+route_id+']').addClass('active');	
 	$('.post__header h3[data-route-id='+route_id+']').addClass('active');
@@ -23,7 +24,7 @@ $(function() {
 		setActiveRoute(activeRoute);
 	} else {
 		var activeRouteElem = $('ul.routes li.active');
-		if (activeRouteElem.length === 1) {
+		if (activeRouteElem.length >= 1) {
 			var activeRoute = activeRouteElem[0].getAttribute('data-route-id');
 			setActiveRoute(activeRoute);
 		}
