@@ -1,5 +1,5 @@
 publishDir = "public"
-baseURL = "http://veikkola.greidi.net/"
+baseURL = "https://veikkola.greidi.net/"
 languageCode = "fi-FI"
 title = "Veikkolan kiipeilypuisto"
 theme = "codex"
