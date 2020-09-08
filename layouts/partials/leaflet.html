@@ -1,0 +1,15 @@
+{{ with $.Params.mapinfo }}
+
+	{{ $width := .width | default "300" }}
+	{{ $height := .height | default "200" }}
+	{{ $lat := .lat | default "60.0" }}
+	{{ $lon := .lon | default "24.0" }}
+	{{ $zoom := .zoom | default "6" }}
+	{{ $maptype := .maptype | default "OSM" }}
+	{{ $polygon := .polygon | default "[]" }}
+	{{ $label := $.Params.title }}
+
+	<div id="mapid" width="{{ $width }}" height="{{ $height }}" data-lat="{{ $lat }}" data-lon="{{ $lon }}" data-zoom="{{ $zoom }}" data-maptype="{{ $maptype }}" data-polygon="{{- $polygon -}}" data-label="{{ $label }}"></div>
+
+{{ end }}
+

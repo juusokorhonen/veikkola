@@ -1,6 +1,10 @@
 {{ define "styles" }}
-    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/routes.scss" "dest" "css/routes.css") }}
-
+  {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/routes.scss" "dest" "css/routes.css") }}
+  {{ if isset .Params "mapinfo" }}
+    {{ $scss_options := (dict "targetPath" "/css/leaflet.css" "outputStyle" "compressed" "enableSourceMap" true ) }}
+    {{ $leaflet_style := resources.Get "scss/leaflet.scss" | resources.ToCSS $scss_options }}
+    <link rel="stylesheet" href="{{ $leaflet_style.RelPermalink }}"/>
+  {{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -119,6 +123,12 @@
       
       <div>{{ .Content }}</div>
 
+      {{ if isset .Params "mapinfo" }}
+        <div class="post__map">
+          {{ partial "leaflet.html" . }}
+        </div>
+      {{ end }}
+
       {{/*
       <div>Current section: {{ .Section }}</div>
       <div>Topo: {{ $topo_name }}</div>
@@ -199,9 +209,17 @@
 {{ end }}
 
 {{ define "scripts" }}
-<script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
-<script src="/js/routes.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
+  {{ $routes_js := resources.Get "js/routes.js" | js.Build }}
+  <script src="{{ $routes_js.RelPermalink }}"></script>
+  {{ if isset .Params "mapinfo" }}
+    {{ $leaflet_js := resources.Get "js/leaflet.js" | js.Build }}
+    {{ $leaflet_js_map := resources.Get "js/leaflet.js.map" }}
+    <script src="{{ $leaflet_js.RelPermalink }}"></script>
+    {{ $leaflet_page_js := resources.Get "js/leaflet-page.js" | js.Build }}
+    <script src="{{ $leaflet_page_js.RelPermalink }}"></script>
+  {{ end }}
 {{ end }}
