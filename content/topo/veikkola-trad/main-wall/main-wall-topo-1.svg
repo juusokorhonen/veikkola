@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1188 1078" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <path id="kakofonia" d="M570.026,919.214C570.026,919.214 499.76,560.969 461.249,443.563C434.297,361.398 335.139,247.472 338.961,214.777C342.782,182.082 392.896,77.188 392.896,77.188" style="fill:none;stroke:black;stroke-width:8.33px;"/>
-    <path id="assosiaatio" d="M755.962,895.567C755.962,895.567 745.523,621.879 714.85,510.957C686.848,409.694 570.804,271.139 544.732,207.456C531.84,175.968 532.583,113.994 532.583,113.994" style="fill:none;stroke:black;stroke-width:8.33px;"/>
+<svg width="100%" height="100%" viewBox="0 0 1553 922" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path id="minikirves" d="M700.807,835.913C701.701,818.22 667.28,442.605 667.28,442.605L657.286,188.263L713.176,8.32" style="fill:none;stroke:rgb(255,0,0);stroke-width:8.33px;"/>
+    <path id="hyvanmielenreitti" d="M1021.37,841.237C1026.19,812.127 1039.67,595.382 1034.17,563.383C1028.67,531.383 932.615,170.825 932.615,170.825C932.615,170.825 842.083,45.67 836.655,25.21C831.227,4.751 827.854,-3.73 827.854,-3.73" style="fill:none;stroke:rgb(255,0,0);stroke-width:8.33px;"/>
 </svg>
