@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Veikkola Trad on Veikkolan kiipeilypuisto</title>
-    <link>http://veikkola.greidi.net/topo/veikkola-trad/</link>
+    <link>https://veikkola.greidi.net/topo/veikkola-trad/</link>
     <description>Recent content in Veikkola Trad on Veikkolan kiipeilypuisto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 09:40:36 +0300</lastBuildDate>
     
-	<atom:link href="http://veikkola.greidi.net/topo/veikkola-trad/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://veikkola.greidi.net/topo/veikkola-trad/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

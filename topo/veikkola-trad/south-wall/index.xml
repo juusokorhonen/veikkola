@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eteläseinä on Veikkolan kiipeilypuisto</title>
-    <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/</link>
+    <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/</link>
     <description>Recent content in Eteläseinä on Veikkolan kiipeilypuisto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
     <lastBuildDate>Sun, 16 Aug 2020 09:40:36 +0300</lastBuildDate>
     
-	<atom:link href="http://veikkola.greidi.net/topo/veikkola-trad/south-wall/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://veikkola.greidi.net/topo/veikkola-trad/south-wall/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pilastro</title>
-      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</link>
+      <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</link>
       <pubDate>Sun, 16 Aug 2020 09:40:22 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</guid>
+      <guid>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/pilastro/</guid>
       <description>Ensimmäinen varmistus on aika korkealla. Pädi mukaan!</description>
     </item>
     
     <item>
       <title>&#34;Kasin halkeama&#34;</title>
-      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</link>
+      <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</link>
       <pubDate>Sun, 16 Aug 2020 09:40:30 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</guid>
+      <guid>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/kasin-halkeama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#34;Seiskan halkeama&#34;</title>
-      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</link>
+      <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</link>
       <pubDate>Sun, 16 Aug 2020 09:40:36 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</guid>
+      <guid>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/seiskan-halkeama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ulkoneva halkeama</title>
-      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/ulkoneva-halkeama/</link>
+      <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/ulkoneva-halkeama/</link>
       <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/ulkoneva-halkeama/</guid>
+      <guid>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/ulkoneva-halkeama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nelosen halkeama</title>
-      <link>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/nelosen-halkeama/</link>
+      <link>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/nelosen-halkeama/</link>
       <pubDate>Sat, 01 Jan 1977 00:00:00 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/topo/veikkola-trad/south-wall/nelosen-halkeama/</guid>
+      <guid>https://veikkola.greidi.net/topo/veikkola-trad/south-wall/nelosen-halkeama/</guid>
       <description></description>
     </item>
     

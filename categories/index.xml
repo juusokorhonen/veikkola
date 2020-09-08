@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Veikkolan kiipeilypuisto</title>
-    <link>http://veikkola.greidi.net/categories/</link>
+    <link>https://veikkola.greidi.net/categories/</link>
     <description>Recent content in Categories on Veikkolan kiipeilypuisto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
     
-	<atom:link href="http://veikkola.greidi.net/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://veikkola.greidi.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

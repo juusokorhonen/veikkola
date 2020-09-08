@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Veikkolan kiipeilypuisto</title>
-    <link>http://veikkola.greidi.net/posts/</link>
+    <link>https://veikkola.greidi.net/posts/</link>
     <description>Recent content in Posts on Veikkolan kiipeilypuisto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fi-FI</language>
     <copyright>© {year} Juuso Korhonen</copyright>
     <lastBuildDate>Sat, 05 Sep 2020 20:48:49 +0300</lastBuildDate>
     
-	<atom:link href="http://veikkola.greidi.net/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://veikkola.greidi.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tervehdys</title>
-      <link>http://veikkola.greidi.net/posts/tervehdys/</link>
+      <link>https://veikkola.greidi.net/posts/tervehdys/</link>
       <pubDate>Sat, 05 Sep 2020 20:48:49 +0300</pubDate>
       
-      <guid>http://veikkola.greidi.net/posts/tervehdys/</guid>
+      <guid>https://veikkola.greidi.net/posts/tervehdys/</guid>
       <description>Kesällä 2020 olin kiipeilytuttavani Mikko Salon kanssa tutustumassa Veikkolan &amp;ldquo;Maa ja taivas&amp;rdquo;-sektorin bouldereihin. Kesken kaiken kuulimme ystävällisen tervehdyksen ja näimme kuinka vanhempi mieshenkilö tuli valjaat päällä juttelemaan kanssamme. Hetken aikaa kesti, kunnes minulla välähti ja kysyin: &amp;ldquo;Mahdatkohan olla Jan von Plato?&amp;rdquo;. Juttelimme jonkin aikaa ja lähtiessämme kävimme vielä vilkaisemassa mitä Jan oli alueella tekemässä. Kalliolle oli syntymässä suuri joukko trädireittejä ja saimme kuulla tarinan siitä kuinka Jan oli jo 70-luvulla löytänyt alueen kalliot.</description>
     </item>
     
