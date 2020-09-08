@@ -1,3 +1,11 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Asul', sans-serif;
+  font-weight: 500;
+}
 .post-list__container {
 	margin-left: 0;
 }
@@ -10,7 +18,10 @@
 	height: auto;
 	min-height: 80%;
 }
-
+main {
+  padding-top: calc(3rem + 4rem);
+  height: unset;
+}
 main > div {
 	max-width: 1200px;
 }
@@ -95,4 +106,19 @@ img.img-inline {
 }
 .post__comments {
   font-size: 0.7em;
+}
+.splash-container {
+  
+}
+.splash {
+  
+}
+a {
+  color: rgb(87, 87, 87);
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: dotted 1px black;
+  text-decoration: none;
 }
