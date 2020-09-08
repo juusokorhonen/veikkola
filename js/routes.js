@@ -23,7 +23,7 @@
       setActiveRoute(activeRoute);
     } else {
       var activeRouteElem = $("ul.routes li.active");
-      if (activeRouteElem.length === 1) {
+      if (activeRouteElem.length >= 1) {
         var activeRoute = activeRouteElem[0].getAttribute("data-route-id");
         setActiveRoute(activeRoute);
       }
