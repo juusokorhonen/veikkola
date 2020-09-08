@@ -1,0 +1,9 @@
+{{ $width := .Get "width" | default "300" }}
+{{ $height := .Get "height" | default "200" }}
+{{ $lat := .Get "lat" | default "26.0" }}
+{{ $lon := .Get "lon" | default "66.0" }}
+{{ $zoom := .Get "zoom" | default "13" }}
+{{ $maptype := .Get "maptype" | default "OSM" }}
+
+<div id="mapid" width="{{ $width }}" height="{{ $height }}" data-lat="{{ $lat }}" data-lon="{{ $lon }}" data-zoom="{{ $zoom }}" data-maptype="{{ $maptype }}"></div>
+

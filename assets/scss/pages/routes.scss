@@ -1,5 +1,7 @@
 @import "posts";
-
+main {
+	padding-top: 2rem !important;
+}
 .topo-img-overlay-wrap {
 	position: relative;
 	display: inline-block;
@@ -169,6 +171,13 @@ ul.tags__list {
 	color: rgb(87, 87, 87);
 
 }
-main {
-	padding-top: 2rem !important;
+.post__map {
+	width: 100%;
+	min-height: 240px; 
+	max-height: 360px;
+}
+#mapid { 
+	width: 100%;
+	min-height: 240px; 
+	max-height: 360px;
 }
