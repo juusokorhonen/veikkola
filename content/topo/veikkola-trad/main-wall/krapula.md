@@ -19,4 +19,4 @@ setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
 fa: ""
 ---
 
-Keskiosan hienan laybackin jälkeen roskaisen terassin takaa oikealle.
+Keskiosan hienon laybackin jälkeen roskaisen terassin takaa oikealle.

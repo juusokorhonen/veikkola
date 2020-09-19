@@ -50,6 +50,12 @@
 
       <div>{{ .Content }}</div>
 
+      {{ if isset .Params "mapinfo" }}
+        <div class="post__map">
+          {{ partial "leaflet.html" . }}
+        </div>
+      {{ end }}
+
       <div class="post-sector__images">
         <h2>Topokuvat</h2>
         {{ partial "sectorimage.html" . }}

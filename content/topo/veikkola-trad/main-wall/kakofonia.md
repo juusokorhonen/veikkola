@@ -19,4 +19,4 @@ setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
 fa: ""
 ---
 
-Epämääräinen punnerrus, sitten helpompaa. Lopussa oikealla viettävä karhea sormihalkeama.
+Epämääräinen punnerrus, sitten helpompaa. Lopussa oikealle viettävä karhea sormihalkeama.
