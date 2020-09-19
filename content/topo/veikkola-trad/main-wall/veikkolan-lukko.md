@@ -16,7 +16,7 @@ weight: 9
 grade: "5+"
 route_type: "trad"
 setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
-fa: "Jan von Plato"
+fa: "Maria Hämeen-Anttila"
 ---
 
 

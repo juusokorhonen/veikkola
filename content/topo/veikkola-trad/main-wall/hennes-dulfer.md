@@ -16,7 +16,7 @@ weight: 8
 grade: "6-"
 route_type: "trad"
 setters: ["Jan von Plato", "Maria Hämeen-Anttila"]
-fa: "Maria Hämeen-Anttila"
+fa: "Jan von Plato"
 ---
 
 Vältä seuraavan reitin halkeamaa.

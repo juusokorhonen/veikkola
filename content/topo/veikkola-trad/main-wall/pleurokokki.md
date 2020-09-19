@@ -12,7 +12,7 @@ toc: false
 category: "route"
 topo: "Veikkola Trad"
 sector: "Pääseinä"
-weight: 14
+weight: 13
 grade: "?"
 route_type: "trad"
 setters: ["Jan von Plato", "Maria Hämeen-Anttila"]

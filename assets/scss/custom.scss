@@ -6,13 +6,31 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Asul', sans-serif;
   font-weight: 500;
 }
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  border-bottom: none;
+  text-decoration: none; 
+}
+h2 > a::after {
+  content: url("/svg/external-link-alt.svg");
+  width: 0.4em;
+  margin: 0 0 0 0.4em;
+  padding: 0 0 0 0;
+  display: inline-block;
+  stroke: rgb(109, 109, 109);
+  fill: rgb(109, 109, 109);
+}
+.nav__list li a {
+  border-bottom: none;
+  text-decoration: none;  
+}
 a {
   color: rgb(87, 87, 87);
   font-weight: 500;
+  border-bottom: dotted 1px black;
   text-decoration: none;
 }
 a:hover {
-  border-bottom: dotted 1px black;
+  border-bottom: solid 1px black;
   text-decoration: none;
 }
 .post-list__container {
