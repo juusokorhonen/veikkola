@@ -31,12 +31,13 @@
     marker.bindPopup(label);
     return marker;
   };
-  var add_polygon_to_map = function(mymap, polygon_coords) {
+  var add_polygon_to_map = function(mymap, polygon_coords, label) {
     var polygon = L.polygon(polygon_coords, {
       color: "rgb(117, 112, 179)",
       opacity: 0.7,
       fill: "rgb(109, 109, 109)"
     }).addTo(mymap);
+    polygon.bindPopup(label);
     return polygon;
   };
   $(function() {
@@ -48,12 +49,13 @@
       let maptype = $("#mapid").attr("data-maptype");
       let label = $("#mapid").attr("data-label");
       let mymap = create_leaflet_map(map_elem, lat, lon, zoom, maptype);
-      add_marker_to_map(mymap, lat, lon, label);
       let polygon_coords = $("#mapid").attr("data-polygon");
-      if (polygon_coords) {
+      if (polygon_coords && polygon_coords.length > 2) {
         polygon_coords = Array(JSON.parse(polygon_coords.replace(/ /g, ", ")))[0];
         polygon_coords = polygon_coords.map((x) => [x[1], x[0]]);
-        var polygon = add_polygon_to_map(mymap, polygon_coords);
+        var polygon = add_polygon_to_map(mymap, polygon_coords, label);
+      } else {
+        add_marker_to_map(mymap, lat, lon, label);
       }
     }
   });
